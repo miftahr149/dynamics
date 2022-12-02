@@ -696,13 +696,13 @@
     <!-- JS
 ============================================ -->
     <!--modernizr min js here-->
-    <script src="<?= BASE_URL ?>assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/js/bootstrap/modernizr-3.7.1.min.js"></script>
 
     <!-- Vendor JS -->
-    <script src="<?= BASE_URL ?>assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="<?= BASE_URL ?>assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
-    <script src="<?= BASE_URL ?>assets/js/vendor/popper.js"></script>
-    <script src="<?= BASE_URL ?>assets/js/vendor/bootstrap.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/js/bootstrap/jquery-3.6.0.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/js/bootstrap/jquery-migrate-3.3.2.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/js/bootstrap/popper.js"></script>
+    <script src="<?= BASE_URL ?>assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="<?= BASE_URL ?>assets/js/slick.min.js"></script>
     <script src="<?= BASE_URL ?>assets/js/wow.min.js"></script>
     <script src="<?= BASE_URL ?>assets/js/jquery.nice-select.js"></script>
