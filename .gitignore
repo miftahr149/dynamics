@@ -85,6 +85,9 @@ phpunit
 #-------------------------
 vendor/
 
+!public/assets/css/vendor/
+!public/assets/js/vendor/
+
 #-------------------------
 # IDE / Development Files
 #-------------------------
