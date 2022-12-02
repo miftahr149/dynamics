@@ -39,12 +39,13 @@
                         <div class="header_logo">
                             <a class="sticky_none" href="index-2.html"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/logo/logo.webp" alt=""></a>
                         </div>
+
                         <!--main menu start-->
                         <div class="main_menu d-none d-lg-block">
                             <nav>
                                 <ul class="d-flex">
                                     <li><a href="index-2.html">Home</a></li>
-                                    <li><a href="match.html">Match</a>
+                                    <li><a href="match.html">Competition</a>
                                         <ul class="sub_menu">
                                             <li><a href="match.html">Match Page</a></li>
                                             <li><a href="match-details.html">Match Details</a></li>
@@ -81,6 +82,8 @@
                             </nav>
                         </div>
                         <!--main menu end-->
+
+                        <!-- Not Used (Farrel)
                         <div class="header_right_sidebar d-flex align-items-center">
                             <div class="sing_up_btn">
                                 <a class="btn btn-link" href="registration.html">SIGN UP <img width="15" height="15" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon2.webp" alt=""> </a>
@@ -88,6 +91,7 @@
                             <div class="canvas_open">
                                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"><i class="icofont-navigation-menu"></i></button>
                             </div>
+                                    -->
                         </div>
                     </div>
                 </div>
@@ -155,9 +159,8 @@
                     <div class="row align-items-center">
                         <div class="col-12">
                             <div class="hero_content">
-                                <h1 class="wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">DYNAMICS <br>
-                                    Playing Today.</h1>
-                                <p class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">Simply text of the printing and typesetting industry.</p>
+                                <h1 class="wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">DYNAMICS 22</h1>
+                                <p class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">Preserving Youth Legacy through Social Movement & Competitions</p>
                                 <a class="btn btn-link wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1.3s" href="all-game.html">Play Now <img width="20" height="20" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon.webp" alt=""> </a>
                             </div>
                         </div>
