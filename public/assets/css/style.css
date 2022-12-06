@@ -6902,3 +6902,7 @@ section.error_section {
   top: 0;
   left: 0;
 }
+
+  .typed-cursor {
+    display: none;
+  }

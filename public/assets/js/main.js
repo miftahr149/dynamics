@@ -61,12 +61,6 @@
         }
     });
     
-
-     /*--- counterup activation ---*/
-     $('.counterup').counterUp({
-        delay: 20,
-        time: 2000
-    });
  
     // niceselect activation
     $(document).ready(function() {
