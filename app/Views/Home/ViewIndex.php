@@ -111,25 +111,25 @@
                                     <!-- <div class="counterup_inner d-flex justify-content-center">
                                     <div class="single_counterup one">
                                         <div class="counterup_text">
-                                            <h2 class="counterup color1 hari">0</h2>
+                                            <h2 class="counterup color1 hari" id="hari">0</h2>
                                             <span>DAY</span>
                                         </div>
                                     </div>
                                     <div class="single_counterup two">
                                         <div class="counterup_text">
-                                            <h2 class="counterup color2 jam">0</h2>
+                                            <h2 class="counterup color2 jam" id="jam">0</h2>
                                             <span>HOUR</span>
                                         </div>
                                     </div>
                                     <div class="single_counterup three">
                                         <div class="counterup_text">
-                                            <h2 class="counterup color3 menit">0</h2>
+                                            <h2 class="counterup color3 menit" id="menit">0</h2>
                                             <span>MINUTE</span>
                                         </div>
                                     </div>
                                     <div class="single_counterup four">
                                         <div class="counterup_text">
-                                            <h2 class="counterup color4 detik">0</h2>
+                                            <h2 class="counterup color4 detik" id="detik">0</h2>
                                             <span>SECOND</span>
                                         </div>
                                     </div>
@@ -548,6 +548,8 @@
 
                 <!-- Main JS -->
                 <script src="<?= BASE_URL ?>assets/js/main.js"></script>
+<<<<<<< HEAD
+=======
                 <script type="text/javascript">
                     $("#getting-started")
                         .countdown("2023/01/15").on('update.countdown', function(event) {
@@ -579,6 +581,7 @@
                                 '</div>'));
                         });
                 </script>
+>>>>>>> 00ef41af11ea22b09845ccfd432faf7380c63730
 
 
 </body>
