@@ -35,7 +35,7 @@
                 <div class="col-12">
                     <div class="main_header d-flex justify-content-between align-items-center">
                         <div class="header_logo">
-                            <a class="sticky_none" href="#"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/logo/logo.webp" alt=""></a>
+                            <a class="sticky_none" href="#"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/dynamics/dynamicsresize.webp" alt=""></a>
                         </div>
                         <!--main menu start-->
                         <div class="main_menu d-none d-lg-block">
@@ -50,14 +50,6 @@
                             </nav>
                         </div>
                         <!--main menu end-->
-                        <div class="header_right_sidebar d-flex align-items-center">
-                            <div class="sing_up_btn">
-                                <a class="btn btn-link" href="registration.html">SIGN UP <img width="15" height="15" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon2.webp" alt=""> </a>
-                            </div>
-                            <div class="canvas_open">
-                                <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"><i class="icofont-navigation-menu"></i></button>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -95,7 +87,7 @@
                         <div class="main_footer_inner d-flex">
                             <div class="footer_widget_list">
                                 <div class="footer_logo">
-                                    <a href="#"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/dynamics/logodynamics.png" alt=""></a>
+                                    <a href="#"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/dynamics/dynamicsresize.webp" alt=""></a>
                                 </div>
                                 <div class="footer_contact_desc">
                                     <p>It long estabhed fact that reader
