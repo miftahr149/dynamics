@@ -38,6 +38,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('/about', 'About::index');
 $routes->get('/competition', 'Competition::index');
+$routes->get('/contact', 'Contact::index');
 
 /*
  * --------------------------------------------------------------------
