@@ -9,7 +9,7 @@
 
 var pJS = function(tag_id, params){
 
-  var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
+  var canvas_el = document.querySelector('#'+tag_id+' > .particles-js');
 
   /* particles.js variables with default values */
   this.pJS = {
@@ -20,7 +20,7 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 400,
+        value: 160,
         density: {
           enable: true,
           value_area: 800
@@ -46,43 +46,43 @@ var pJS = function(tag_id, params){
       },
       opacity: {
         value: 1,
-        random: false,
+        random: true,
         anim: {
-          enable: false,
-          speed: 2,
+          enable: true,
+          speed: 1,
           opacity_min: 0,
           sync: false
         }
       },
       size: {
-        value: 20,
-        random: false,
+        value: 3,
+        random: true,
         anim: {
           enable: false,
-          speed: 20,
-          size_min: 0,
+          speed: 4,
+          size_min: 0.3,
           sync: false
         }
       },
       line_linked: {
-        enable: true,
-        distance: 100,
+        enable: false,
+        distance: 150,
         color: '#fff',
-        opacity: 1,
+        opacity: 0.4,
         width: 1
       },
       move: {
         enable: true,
-        speed: 2,
+        speed: 1,
         direction: 'none',
-        random: false,
+        random: true,
         straight: false,
         out_mode: 'out',
         bounce: false,
         attract: {
           enable: false,
-          rotateX: 3000,
-          rotateY: 3000
+          rotateX: 600,
+          rotateY: 600
         }
       },
       array: []
@@ -92,28 +92,30 @@ var pJS = function(tag_id, params){
       events: {
         onhover: {
           enable: true,
-          mode: 'grab'
+          mode: 'bubble'
         },
         onclick: {
           enable: true,
-          mode: 'push'
+          mode: 'repulse'
         },
         resize: true
       },
       modes: {
         grab:{
-          distance: 100,
+          distance: 400,
           line_linked:{
             opacity: 1
           }
         },
         bubble:{
-          distance: 200,
-          size: 80,
-          duration: 0.4
+          distance: 250,
+          size: 0,
+          duration: 0.4,
+          opacity: 0,
+          speed: 3
         },
         repulse:{
-          distance: 200,
+          distance: 400,
           duration: 0.4
         },
         push:{
@@ -125,7 +127,7 @@ var pJS = function(tag_id, params){
       },
       mouse:{}
     },
-    retina_detect: false,
+    retina_detect: true,
     fn: {
       interact: {},
       modes: {},
