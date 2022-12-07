@@ -154,49 +154,38 @@
                                             maupun internal. Agenda tahunan ini dipersembahkan organisasi siswa/i SMP IT
                                             Nurul Fikri Bogor dengan mengusung tema "Preserving Youth Legacy through
                                             Social Movement and Competition". </p>
-                                            <p align="left">
+                                        <p align="left">
                                             Serangkaian agenda Dynamics 2023
                                             disusun sebagai kontribusi kami untuk memberdayakan potensi pemuda untuk
                                             menjadi seorang impact maker muda diantaranya, Nurul Fikri Leader League,
                                             Youth Charity Concert, dan Next Leader Competitions.
+
                                         </p>
                                     </div>
                                     <div class="col-lg-6">
-                                <img class="img-fluid" src="<?= BASE_URL ?>assets/img/dynamics/mascot.png" alt="">
-                            </div>
+                                        <img class="img-fluid animate__shakeY" src="<?= BASE_URL ?>assets/img/dynamics/mascot.png" alt="">
+                                    </div>
                                 </div>
                             </div>
                         </section>
-                        <!-- upcoming gaming section end -->
 
-                        <!-- counterup section start -->
                         <section class="counterup_section mb-115 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
                             <div class="container">
+                                <h2>Our Target</h2>
+                                <br>
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="counterup_inner d-flex justify-content-center">
                                             <div class="single_counterup one">
                                                 <div class="counterup_text">
-                                                    <h2 class="counterup color1">8697</h2>
-                                                    <span>TWITCH STREAMS</span>
+                                                    <h2 class="counterup color2">50</h2>
+                                                    <span>SEKOLAH</span>
                                                 </div>
                                             </div>
                                             <div class="single_counterup two">
                                                 <div class="counterup_text">
-                                                    <h2 class="counterup color2">428</h2>
-                                                    <span>TOTAL GAMES</span>
-                                                </div>
-                                            </div>
-                                            <div class="single_counterup three">
-                                                <div class="counterup_text">
-                                                    <h2 class="counterup color3">5367</h2>
-                                                    <span>YOUTUBE STREAMS</span>
-                                                </div>
-                                            </div>
-                                            <div class="single_counterup four">
-                                                <div class="counterup_text">
-                                                    <h2 class="counterup color4">249</h2>
-                                                    <span>PRO TEAM</span>
+                                                    <h2 class="counterup color3">500</h2>
+                                                    <span>SISWA</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -204,13 +193,12 @@
                                 </div>
                             </div>
                         </section>
-                        <!-- counterup section end -->
 
                         <!-- popular gaming  section start -->
                         <section class="popular_gaming_section mb-140">
                             <div class="container">
                                 <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                                    <h2>Popular GAME</h2>
+                                    <h2>Timeline</h2>
                                     <p>When unknown printer took type and scrambled it to make <br>
                                         type specimen book centuries,</p>
                                 </div>
@@ -581,8 +569,5 @@
                         });
                 </script>
 
-
 </body>
-
-
 </html>
