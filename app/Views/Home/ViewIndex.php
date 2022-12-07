@@ -106,7 +106,8 @@
                     <section class="counterup_section mb-115 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
                         <div class="container">
                             <div class="col-12">
-                                <div class="counterup_inner d-flex justify-content-center">
+                                <div id="getting-started"></div>
+                                <!-- <div class="counterup_inner d-flex justify-content-center">
                                     <div class="single_counterup one">
                                         <div class="counterup_text">
                                             <h2 class="counterup color1 hari">0</h2>
@@ -131,7 +132,7 @@
                                             <span>SECOND</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </section>
@@ -574,36 +575,70 @@
                 <!--footer area end-->
 
 
-                <!-- JS
-============================================ -->
-                <!--modernizr min js here-->
-                <script src="<?= BASE_URL ?>assets/js/vendor/modernizr-3.7.1.min.js"></script>
+                <!-- JS ============================================ -->
 
-                <!-- Vendor JS -->
-                <script src="<?= BASE_URL ?>assets/js/vendor/jquery-3.6.0.min.js"></script>
-                <script src="<?= BASE_URL ?>assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
-                <script src="<?= BASE_URL ?>assets/js/vendor/popper.js"></script>
-                <script src="<?= BASE_URL ?>assets/js/vendor/bootstrap.min.js"></script>
-                <script src="<?= BASE_URL ?>assets/js/slick.min.js"></script>
-                <script src="<?= BASE_URL ?>assets/js/wow.min.js"></script>
-                <script src="<?= BASE_URL ?>assets/js/jquery.nice-select.js"></script>
-                <script src="<?= BASE_URL ?>assets/js/jquery.magnific-popup.min.js"></script>
-                <script src="<?= BASE_URL ?>assets/js/jquery.counterup.min.js"></script>
-                <script src="<?= BASE_URL ?>assets/js/jquery-waypoints.js"></script>
 
-                <!-- Typed JS -->
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            </div>
+            <!--modernizr min js here-->
+            <script src="<?= BASE_URL ?>assets/js/vendor/modernizr-3.7.1.min.js"></script>
 
-                <script type="text/javascript">
-                    var typed = new Typed('.typedjs', {
-                        strings: ["Preserving Youth Legacy through Social Movement & Competitions"],
-                        typeSpeed: 40,
-                        showCursor: false
+            <!-- Vendor JS -->
+            <script src="<?= BASE_URL ?>assets/js/vendor/jquery-3.6.0.min.js"></script>
+            <script src="<?= BASE_URL ?>assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+            <script src="<?= BASE_URL ?>assets/js/vendor/popper.js"></script>
+            <script src="<?= BASE_URL ?>assets/js/vendor/bootstrap.min.js"></script>
+            <script src="<?= BASE_URL ?>assets/js/slick.min.js"></script>
+            <script src="<?= BASE_URL ?>assets/js/wow.min.js"></script>
+            <script src="<?= BASE_URL ?>assets/js/jquery.nice-select.js"></script>
+            <script src="<?= BASE_URL ?>assets/js/jquery.magnific-popup.min.js"></script>
+            <script src="<?= BASE_URL ?>assets/js/jquery.counterup.min.js"></script>
+            <script src="<?= BASE_URL ?>assets/js/jquery-waypoints.js"></script>
+            <script src="<?= BASE_URL ?>assets/js/jquery.countdown.min.js"></script>
+
+            <!-- Typed JS -->
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+            <script type="text/javascript">
+                var typed = new Typed('.typedjs', {
+                    strings: ["Preserving Youth Legacy through Social Movement & Competitions"],
+                    typeSpeed: 40,
+                    showCursor: false
+                });
+            </script>
+
+            <!-- Main JS -->
+            <script src="<?= BASE_URL ?>assets/js/main.js"></script>
+            <script type="text/javascript">
+                $("#getting-started")
+                    .countdown("2023/01/15").on('update.countdown', function(event) {
+                        var $this = $(this).html(event.strftime('<div class="counterup_inner d-flex justify-content-center">' +
+                            ' <div class="single_counterup one">' +
+                            '<div class="counterup_text">' +
+                            ' <h2 class="counterup color1 hari">%D</h2>' +
+                            '<span>DAY</span>' +
+                            ' </div>' +
+                            ' </div>' +
+                            ' <div class="single_counterup two">' +
+                            ' <div class="counterup_text">' +
+                            '<h2 class="counterup color2 jam">%H</h2>' +
+                            ' <span>HOUR</span>' +
+                            '</div>' +
+                            ' </div>' +
+                            '<div class="single_counterup three">' +
+                            ' <div class="counterup_text">' +
+                            '<h2 class="counterup color3 menit">%M</h2>' +
+                            ' <span>MINUTE</span>' +
+                            '</div>' +
+                            ' </div>' +
+                            ' <div class="single_counterup four">' +
+                            ' <div class="counterup_text">' +
+                            '<h2 class="counterup color4 detik">%S</h2>' +
+                            '<span>SECOND</span>' +
+                            '</div>' +
+                            '</div>' +
+                            '</div>'));
                     });
-                </script>
-
-                <!-- Main JS -->
-                <script src="<?= BASE_URL ?>assets/js/main.js"></script>
+            </script>
 
 
 </body>
