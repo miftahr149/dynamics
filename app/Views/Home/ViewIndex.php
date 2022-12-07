@@ -43,7 +43,7 @@
                                 <ul class="d-flex">
                                     <li><a href="#home">HOME</a></li>
                                     <li><a href="#about">ABOUT</a></li>
-                                    <li><a href="index-2.html">COMPETITION</a></li>
+                                    <li><a href="/competition">COMPETITION</a></li>
                                     <li><a href="index-2.html">HOMESTAY</a></li>
                                     <li><a href="index-2.html">CONTACT</a></li>
                                 </ul>
