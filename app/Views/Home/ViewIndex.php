@@ -414,7 +414,7 @@
                                         <div class="main_footer_inner d-flex">
                                             <div class="footer_widget_list">
                                                 <div class="footer_logo">
-                                                    <a href="#"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/dynamics/logodynamics.png" alt=""></a>
+                                                    <a href="#"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/dynamics/dynamicsresize.webp" alt=""></a>
                                                 </div>
                                                 <div class="footer_contact_desc">
                                                     <p>It long estabhed fact that reader
