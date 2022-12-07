@@ -109,25 +109,25 @@
                                 <div class="counterup_inner d-flex justify-content-center">
                                     <div class="single_counterup one">
                                         <div class="counterup_text">
-                                            <h2 class="counterup color1 hari">0</h2>
+                                            <h2 class="counterup color1 hari" id="hari">0</h2>
                                             <span>DAY</span>
                                         </div>
                                     </div>
                                     <div class="single_counterup two">
                                         <div class="counterup_text">
-                                            <h2 class="counterup color2 jam">0</h2>
+                                            <h2 class="counterup color2 jam" id="jam">0</h2>
                                             <span>HOUR</span>
                                         </div>
                                     </div>
                                     <div class="single_counterup three">
                                         <div class="counterup_text">
-                                            <h2 class="counterup color3 menit">0</h2>
+                                            <h2 class="counterup color3 menit" id="menit">0</h2>
                                             <span>MINUTE</span>
                                         </div>
                                     </div>
                                     <div class="single_counterup four">
                                         <div class="counterup_text">
-                                            <h2 class="counterup color4 detik">0</h2>
+                                            <h2 class="counterup color4 detik" id="detik">0</h2>
                                             <span>SECOND</span>
                                         </div>
                                     </div>
@@ -600,6 +600,34 @@
                         typeSpeed: 40,
                         showCursor: false
                     });
+                </script>
+
+                <script type="text/javascript">
+
+                    // Set the date we're counting down to
+                    var countDownDate = new Date("Jan 25, 2023 00:00:00").getTime();
+
+                    // Update the count down every 1 second
+                    var x = setInterval(function() {
+
+                    // Get today's date and time
+                    var now = new Date().getTime();
+
+                    // Find the distance between now and the count down date
+                    var distance = countDownDate - now;
+
+                    // Time calculations for days, hours, minutes and seconds
+                    var hari = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var jam = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var menit = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var detik = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    // Display the result in the element
+                    document.getElementsByClassName('hari').innerHTML = hari
+                    document.getElementsByClassName('jam').innerHTML = jam
+                    document.getElementsByClassName('menit').innerHTML = menit
+                    document.getElementsByClassName('detik').innerHTML = detik
+                    }, 1000);
                 </script>
 
                 <!-- Main JS -->
