@@ -48,88 +48,6 @@
     </section>
     <!-- gaming  world section end -->
 
-    <!-- upcoming gaming section start -->
-    <section class="upcoming_gaming_section mb-125">
-        <div class="container">
-            <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                <h2>Upcoming Match</h2>
-                <p>When unknown printer took type and scrambled it to make <br>
-                    type specimen book centuries,</p>
-            </div>
-            <div class="upcoming_gaming_inner">
-                <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center mb-30" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                    <div class="upcoming_gaming_text">
-                        <p>20 August 2021 - 09:00 PM</p>
-                        <h3><a href="match-details.html">Roar Spring Game 2021</a></h3>
-                        <span>08 Teams Registered</span>
-                    </div>
-                    <div class="upcoming_play_video text-center">
-                        <a class="video_popup" href="https://www.youtube.com/watch?v=eS9Qm4AOOBY"><img width="53" height="44" src="<?= BASE_URL ?>assets/img/others/play-btn2.webp" alt=""></a> <br>
-                        <span>Live Stream</span>
-                    </div>
-                    <div class="upcoming_gaming_thumb d-flex align-items-center">
-                        <div class="single_upcoming_thumb">
-                            <img width="97" height="119" src="<?= BASE_URL ?>assets/img/others/upcoming-game-thumb1.webp" alt="">
-                        </div>
-                        <div class="single_upcoming_thumb">
-                            <img width="87" height="87" src="<?= BASE_URL ?>assets/img/others/game-vs1.webp" alt="">
-                        </div>
-                        <div class="single_upcoming_thumb">
-                            <img width="93" height="120" src="<?= BASE_URL ?>assets/img/others/upcoming-game-thumb2.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center mb-30" data-wow-delay="0.2s" data-wow-duration="1.2s">
-                    <div class="upcoming_gaming_text">
-                        <p>20 August 2021 - 09:00 PM</p>
-                        <h3><a href="match-details.html">Skrit tournament 2021</a></h3>
-                        <span>08 Teams Registered</span>
-                    </div>
-                    <div class="upcoming_play_video text-center">
-                        <a class="video_popup" href="https://www.youtube.com/watch?v=eS9Qm4AOOBY"><img width="53" height="44" src="<?= BASE_URL ?>assets/img/others/play-btn2.webp" alt=""></a> <br>
-                        <span>Youtube Stream</span>
-                    </div>
-                    <div class="upcoming_gaming_thumb d-flex align-items-center">
-                        <div class="single_upcoming_thumb">
-                            <img width="102" height="119" src="<?= BASE_URL ?>assets/img/others/upcoming-game-thumb3.webp" alt="">
-                        </div>
-                        <div class="single_upcoming_thumb">
-                            <img width="87" height="87" src="<?= BASE_URL ?>assets/img/others/game-vs2.webp" alt="">
-                        </div>
-                        <div class="single_upcoming_thumb">
-                            <img width="105" height="119" src="<?= BASE_URL ?>assets/img/others/upcoming-game-thumb4.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center" data-wow-delay="0.3s" data-wow-duration="1.3s">
-                    <div class="upcoming_gaming_text">
-                        <p>20 August 2021 - 09:00 PM</p>
-                        <h3><a href="match-details.html">Ninja 360 Game 2021</a></h3>
-                        <span>08 Teams Registered</span>
-                    </div>
-                    <div class="upcoming_play_video text-center">
-                        <a class="video_popup" href="https://www.youtube.com/watch?v=eS9Qm4AOOBY"><img width="53" height="44" src="<?= BASE_URL ?>assets/img/others/play-btn2.webp" alt=""></a> <br>
-                        <span>Twitch Stream</span>
-                    </div>
-                    <div class="upcoming_gaming_thumb d-flex align-items-center">
-                        <div class="single_upcoming_thumb">
-                            <img width="118" height="119" src="<?= BASE_URL ?>assets/img/others/upcoming-game-thumb5.webp" alt="">
-                        </div>
-                        <div class="single_upcoming_thumb">
-                            <img width="87" height="87" src="<?= BASE_URL ?>assets/img/others/game-vs3.webp" alt="">
-                        </div>
-                        <div class="single_upcoming_thumb">
-                            <img width="100" height="119" src="<?= BASE_URL ?>assets/img/others/upcoming-game-thumb6.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="others_match_btn text-center">
-                <a class="btn btn-link" href="match.html">Other’s Match </a>
-            </div>
-        </div>
-    </section>
-    <!-- upcoming gaming section end -->
 
     <!-- counterup section start -->
     <section class="counterup_section mb-115 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
@@ -194,43 +112,42 @@
                             </div>
                         </div>
                     </div>
-                    <!-- COUNTDOWN -->
-                    <div id="about">
-                        <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                            <h2>ABOUT DYNAMICS</h2>
-                            <br>
-                            <!-- upcoming gaming section start -->
-                            <section class="upcoming_gaming_section mb-125">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <p align="left">
-                                                Dynamics 2023 merupakan ajang penguatan dan peningkatan jiwa
-                                                kepemimpinan pelajar di-Indonesia khususnya di wilayah Jabodatabek, yang
-                                                nantinya diharapkan dapat mengemban peran vital dilingkungan eksternal
-                                                maupun internal. Agenda tahunan ini dipersembahkan organisasi siswa/i SMP IT
-                                                Nurul Fikri Bogor dengan mengusung tema "Preserving Youth Legacy through
-                                                Social Movement and Competition". </p>
-                                            <p align="left">
-                                                Serangkaian agenda Dynamics 2023
-                                                disusun sebagai kontribusi kami untuk memberdayakan potensi pemuda untuk
-                                                menjadi seorang impact maker muda diantaranya, Nurul Fikri Leader League,
-                                                Youth Charity Concert, dan Next Leader Competitions.
+                </div>
+            </div>
+        </div>
+    </section>
 
-                                            </p>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <img class="img-fluid animate__shakeY" src="<?= BASE_URL ?>assets/img/dynamics/mascot.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
+    <section class="popular_gaming_section mb-140" id="about">
+        <div class="container">
+            <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                <h2>ABOUT DYNAMICS</h2>
+            </div>
+            <div class="popular_gaming_inner wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <p align="left">
+                            Dynamics 2023 merupakan ajang penguatan dan peningkatan jiwa
+                            kepemimpinan pelajar di-Indonesia khususnya di wilayah Jabodatabek, yang
+                            nantinya diharapkan dapat mengemban peran vital dilingkungan eksternal
+                            maupun internal. Agenda tahunan ini dipersembahkan organisasi siswa/i SMP IT
+                            Nurul Fikri Bogor dengan mengusung tema "Preserving Youth Legacy through
+                            Social Movement and Competition". </p>
+                        <p align="left">
+                            Serangkaian agenda Dynamics 2023
+                            disusun sebagai kontribusi kami untuk memberdayakan potensi pemuda untuk
+                            menjadi seorang impact maker muda diantaranya, Nurul Fikri Leader League,
+                            Youth Charity Concert, dan Next Leader Competitions.
+
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <img class="img-fluid animate__shakeY" src="<?= BASE_URL ?>assets/img/dynamics/mascot.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <section class="counterup_section mb-115 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
         <div class="container">

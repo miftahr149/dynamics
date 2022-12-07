@@ -42,7 +42,7 @@
                             <nav>
                                 <ul class="d-flex">
                                     <li><a href="<?php echo BASE_URL ?>">HOME</a></li>
-                                    <li><a href="<?php echo BASE_URL . 'about' ?>">ABOUT</a></li>
+                                    <li><a href="#about">ABOUT</a></li>
                                     <li><a href="#">COMPETITION</a></li>
                                     <li><a href="#">HOMESTAY</a></li>
                                     <li><a href="#">CONTACT</a></li>
@@ -73,7 +73,7 @@
         <div class="offcanvas-body">
             <ul class="offcanvas_main_menu">
                 <li class="menu-item-has-children"><a href="<?php echo BASE_URL ?>">HOME</a></li>
-                <li class="menu-item-has-children"><a href="<?php echo BASE_URL . 'about' ?>">ABOUT</a></li>
+                <li class="menu-item-has-children"><a href="#about">ABOUT</a></li>
                 <li class="menu-item-has-children"><a href="#">COMPETITION</a></li>
                 <li class="menu-item-has-children"><a href="#">HOMESTAY</a></li>
                 <li class="menu-item-has-children"><a href="#">CONTACT</a></li>
