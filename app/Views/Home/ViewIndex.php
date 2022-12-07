@@ -105,45 +105,38 @@
 
             <!-- Timeline -->
             <section class="popular_gaming_section mb-140">
-                <div class="container">
-                    <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                        <h2>Timeline</h2>
-                        <p>When unknown printer took type and scrambled it to make <br>
-                            type specimen book centuries,</p>
-                    </div>
-                    <div class="popular_gaming_inner wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="popular_gaming_thumb">
-                                    <a href="#"><img width="570" height="330" src="<?= BASE_URL ?>assets/img/others/popular-game-thumb1.webp" alt=""></a>
-                                    <div class="gaming_details_btn">
-                                        <a class="btn btn-link" href="game-details.html">Game Details <img width="20" height="20" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon.webp" alt=""> </a>
-                                    </div>
-                                </div>
+                <h2>Timeline</h2>
+                <br>
+                <div class="container-timeline">
+                    <div class="timeline">
+                        <div class="timeline-container primary">
+                            <div class="timeline-icon">
+                                <i class="fa-solid fa-book"></i>
                             </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="popular_gaming_thumb">
-                                    <a href="#"><img width="570" height="330" src="<?= BASE_URL ?>assets/img/others/popular-game-thumb2.webp" alt=""></a>
-                                    <div class="gaming_details_btn">
-                                        <a class="btn btn-link" href="game-details.html">Game Details <img width="20" height="20" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon.webp" alt=""> </a>
-                                    </div>
-                                </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">20 December 2022</span></h4>
+                                <h3>Open Registration</h3>
+                                <p class="timeline-subtitle">20 December 2022</p>
                             </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="popular_gaming_thumb">
-                                    <a href="#"><img width="570" height="330" src="<?= BASE_URL ?>assets/img/others/popular-game-thumb3.webp" alt=""></a>
-                                    <div class="gaming_details_btn">
-                                        <a class="btn btn-link" href="game-details.html">Game Details <img width="20" height="20" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon.webp" alt=""> </a>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="timeline-container danger">
+                            <div class="timeline-icon">
+                                <i class="fa-solid fa-handshake"></i>
                             </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="popular_gaming_thumb">
-                                    <a href="#"><img width="570" height="330" src="<?= BASE_URL ?>assets/img/others/popular-game-thumb4.webp" alt=""></a>
-                                    <div class="gaming_details_btn">
-                                        <a class="btn btn-link" href="game-details.html">Game Details <img width="20" height="20" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon.webp" alt=""> </a>
-                                    </div>
-                                </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">30 December 2022</span></h4>
+                                <h3>Technical Meeting</h3>
+                                <p class="timeline-subtitle">30 December 2022</p>
+                            </div>
+                        </div>
+                        <div class="timeline-container success">
+                            <div class="timeline-icon">
+                                <i class="fa-brands fa-font-awesome"></i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">4 January 2023</span></h4>
+                                <h3>Dynamics 2023</h3>
+                                <p class="timeline-subtitle">6 Hours Ago</p>
                             </div>
                         </div>
                     </div>
