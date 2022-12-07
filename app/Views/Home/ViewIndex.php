@@ -5,7 +5,6 @@
 <?= $this->endSection() ?>
 <?= $this->section('content') ?>
 <div class="page_wrapper">
-
     <!-- Home Page -->
     <section class="hero_banner_section d-flex align-items-center mb-130" data-bgimg="<?= BASE_URL ?>assets/img/bg/hero-bg1.webp">
         <div class="container">
@@ -428,40 +427,40 @@
         <!-- gaming update section end -->
 
     </div>
-    <?= $this->endSection() ?>
+</div>
+<?= $this->endSection() ?>
 
-    <?= $this->section('loadJs') ?>
-    <script src="<?= BASE_URL ?>assets/js/jquery.countdown.min.js"></script>
-    <script type="text/javascript">
-        $("#countdown-js")
-            .countdown("2023/01/15").on('update.countdown', function(event) {
-                var $this = $(this).html(event.strftime('<div class="counterup_inner d-flex justify-content-center">' +
-                    ' <div class="single_counterup one">' +
-                    '<div class="counterup_text">' +
-                    ' <h2 class="counterup color1 hari">%D</h2>' +
-                    '<span>DAY</span>' +
-                    ' </div>' +
-                    ' </div>' +
-                    ' <div class="single_counterup two">' +
-                    ' <div class="counterup_text">' +
-                    '<h2 class="counterup color2 jam">%H</h2>' +
-                    ' <span>HOUR</span>' +
-                    '</div>' +
-                    ' </div>' +
-                    '<div class="single_counterup three">' +
-                    ' <div class="counterup_text">' +
-                    '<h2 class="counterup color3 menit">%M</h2>' +
-                    ' <span>MINUTE</span>' +
-                    '</div>' +
-                    ' </div>' +
-                    ' <div class="single_counterup four">' +
-                    ' <div class="counterup_text">' +
-                    '<h2 class="counterup color4 detik">%S</h2>' +
-                    '<span>SECOND</span>' +
-                    '</div>' +
-                    '</div>' +
-                    '</div>'));
-            });
-    </script>
-    <?= $this->endSection() ?>
-    >>>>>>> khoirul
+<?= $this->section('loadJs') ?>
+<script src="<?= BASE_URL ?>assets/js/jquery.countdown.min.js"></script>
+<script type="text/javascript">
+    $("#countdown-js")
+        .countdown("2023/01/15").on('update.countdown', function(event) {
+            var $this = $(this).html(event.strftime('<div class="counterup_inner d-flex justify-content-center">' +
+                ' <div class="single_counterup one">' +
+                '<div class="counterup_text">' +
+                ' <h2 class="counterup color1 hari">%D</h2>' +
+                '<span>DAY</span>' +
+                ' </div>' +
+                ' </div>' +
+                ' <div class="single_counterup two">' +
+                ' <div class="counterup_text">' +
+                '<h2 class="counterup color2 jam">%H</h2>' +
+                ' <span>HOUR</span>' +
+                '</div>' +
+                ' </div>' +
+                '<div class="single_counterup three">' +
+                ' <div class="counterup_text">' +
+                '<h2 class="counterup color3 menit">%M</h2>' +
+                ' <span>MINUTE</span>' +
+                '</div>' +
+                ' </div>' +
+                ' <div class="single_counterup four">' +
+                ' <div class="counterup_text">' +
+                '<h2 class="counterup color4 detik">%S</h2>' +
+                '<span>SECOND</span>' +
+                '</div>' +
+                '</div>' +
+                '</div>'));
+        });
+</script>
+<?= $this->endSection() ?>
