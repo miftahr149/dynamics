@@ -548,8 +548,6 @@
 
                 <!-- Main JS -->
                 <script src="<?= BASE_URL ?>assets/js/main.js"></script>
-<<<<<<< HEAD
-=======
                 <script type="text/javascript">
                     $("#getting-started")
                         .countdown("2023/01/15").on('update.countdown', function(event) {
@@ -581,7 +579,6 @@
                                 '</div>'));
                         });
                 </script>
->>>>>>> 00ef41af11ea22b09845ccfd432faf7380c63730
 
 
 </body>
