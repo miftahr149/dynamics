@@ -35,7 +35,7 @@
                 <div class="col-12">
                     <div class="main_header d-flex justify-content-between align-items-center">
                         <div class="header_logo">
-                            <a class="sticky_none" href="index-2.html"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/dynamics/logodynamics.png" alt=""></a>
+                            <a class="sticky_none" href="index-2.html"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/dynamics/dynamicsresize.webp" alt=""></a>
                         </div>
                         <!--main menu start-->
                         <div class="main_menu d-none d-lg-block">
@@ -414,7 +414,7 @@
                                         <div class="main_footer_inner d-flex">
                                             <div class="footer_widget_list">
                                                 <div class="footer_logo">
-                                                    <a href="#"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/dynamics/logodynamics.png" alt=""></a>
+                                                    <a href="#"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/dynamics/dynamicsresize.webp" alt=""></a>
                                                 </div>
                                                 <div class="footer_contact_desc">
                                                     <p>It long estabhed fact that reader
@@ -579,6 +579,10 @@
                                 '</div>'));
                         });
                 </script>
+<<<<<<< HEAD
+=======
+
+>>>>>>> dfece892e8fe9b8c159affb9de77f1d4287f7a5c
 
 </body>
 
