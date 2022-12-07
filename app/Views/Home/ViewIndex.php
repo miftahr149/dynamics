@@ -152,18 +152,19 @@
                                             kepemimpinan pelajar di-Indonesia khususnya di wilayah Jabodatabek, yang
                                             nantinya diharapkan dapat mengemban peran vital dilingkungan eksternal
                                             maupun internal. Agenda tahunan ini dipersembahkan organisasi siswa/i SMP IT
-                                            Nurul Fikri Bogor dengan mengusung tema ‘Preserving Youth Legacy through
-                                            Social Movement and Competition’. Serangkaian agenda Dynamics 2023
+                                            Nurul Fikri Bogor dengan mengusung tema "Preserving Youth Legacy through
+                                            Social Movement and Competition". </p>
+                                            <p align="left">
+                                            Serangkaian agenda Dynamics 2023
                                             disusun sebagai kontribusi kami untuk memberdayakan potensi pemuda untuk
                                             menjadi seorang impact maker muda diantaranya, Nurul Fikri Leader League,
                                             Youth Charity Concert, dan Next Leader Competitions.
-
                                         </p>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
+                                    <div class="col-lg-6">
                                 <img class="img-fluid" src="<?= BASE_URL ?>assets/img/dynamics/mascot.png" alt="">
+                            </div>
+                                </div>
                             </div>
                         </section>
                         <!-- upcoming gaming section end -->
