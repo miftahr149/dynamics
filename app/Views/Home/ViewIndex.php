@@ -39,7 +39,7 @@
                 <h2>EVENT STARTED IN</h2>
             </div>
             <div class="gaming_world_inner">
-                <div id="getting-started"></div>
+                <div id="countdown-js"></div>
             </div>
         </div>
     </section>
@@ -434,7 +434,7 @@
     <?= $this->section('loadJs') ?>
     <script src="<?= BASE_URL ?>assets/js/jquery.countdown.min.js"></script>
     <script type="text/javascript">
-        $("#getting-started")
+        $("#countdown-js")
             .countdown("2023/01/15").on('update.countdown', function(event) {
                 var $this = $(this).html(event.strftime('<div class="counterup_inner d-flex justify-content-center">' +
                     ' <div class="single_counterup one">' +
