@@ -39,7 +39,7 @@
                 <h2>EVENT STARTED IN</h2>
             </div>
             <div class="gaming_world_inner">
-                <div id="countdown-js"></div>
+                <div id="countdown-js" class="wow fadeInUp mb-60" data-wow-delay="0.1s" data-wow-duration="1.1s"></div>
             </div>
         </div>
     </section>
