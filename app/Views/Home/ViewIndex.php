@@ -145,7 +145,6 @@
             <!-- Timeline End -->
 
             <!-- testimonial section start -->
-
             <section class="testimonial_section wow fadeInUp" data-bgimg="<?= BASE_URL ?>assets/img/others/testimonial-bg-fullwidth.webp" data-wow-delay="0.1s" data-wow-duration="1.1s">
                 <div class="container">
                     <div class="row">
