@@ -78,7 +78,7 @@
         <!-- About Dynamics End -->
 
         <!-- Our Target -->
-        <section class="counterup_section mb-115 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+        <section class="counterup_section text-center mb-115 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
             <div class="container">
                 <h2>Our Target</h2>
                 <br>
@@ -105,7 +105,7 @@
         <!-- Our Target End -->
 
         <!-- Timeline -->
-        <section class="popular_gaming_section mb-140">
+        <section class="popular_gaming_section text-center mb-140">
             <h2>Timeline</h2>
             <br>
             <div class="container-timeline">
