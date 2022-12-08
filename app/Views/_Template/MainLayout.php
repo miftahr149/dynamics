@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/animate.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/nice-select.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/magnific-popup.css">
+
+    <!-- Timeline CSS -->
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/timeline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/style.css">
     <?= $this->renderSection('loadCss') ?>
@@ -44,7 +48,11 @@
                                     <li><a href="<?php echo BASE_URL ?>">HOME</a></li>
                                     <li><a href="#about">ABOUT</a></li>
                                     <li><a href="<?php echo BASE_URL . 'competition' ?>">COMPETITION</a></li>
+<<<<<<< HEAD
                                     <li><a href="#">HOMESTAY</a></li>
+=======
+                                    <li><a href="<?php echo BASE_URL . 'homestay' ?>">HOMESTAY</a></li>
+>>>>>>> 9abad0aa724589bcf5a925f62ecd57a36e625c1d
                                     <li><a href="<?php echo BASE_URL . 'contact' ?>">CONTACT</a></li>
                                 </ul>
                             </nav>
@@ -67,7 +75,11 @@
                 <li class="menu-item-has-children"><a href="<?php echo BASE_URL ?>">HOME</a></li>
                 <li class="menu-item-has-children"><a href="#about">ABOUT</a></li>
                 <li class="menu-item-has-children"><a href="<?php echo BASE_URL . 'competition' ?>">COMPETITION</a></li>
+<<<<<<< HEAD
                 <li class="menu-item-has-children"><a href="#">HOMESTAY</a></li>
+=======
+                <li class="menu-item-has-children"><a href="<?php echo BASE_URL . 'homestay' ?>">HOMESTAY</a></li>
+>>>>>>> 9abad0aa724589bcf5a925f62ecd57a36e625c1d
                 <li class="menu-item-has-children"><a href="<?php echo BASE_URL . 'contact' ?>">CONTACT</a></li>
             </ul>
         </div>
