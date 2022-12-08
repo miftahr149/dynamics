@@ -3227,6 +3227,14 @@ section.error_section {
   position: relative;
 }
 
+.testimonial_section::before {
+  position: absolute;
+  content: "";
+  width: 38%;
+  height: 0px;
+  right: 0;
+  top: 185px;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial_section::before {
@@ -7941,4 +7949,11 @@ only screen and (max-width: 767px) {
   opacity: 0;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
   transition: 0.3s;
+}
+
+.competitionbutton {
+  margin: auto;
+  padding: 10%;
+  width: 50%;
+  height: 50%
 }
