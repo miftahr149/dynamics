@@ -11,6 +11,7 @@
             <div class="col-12">
                 <div class="breadcrumbs_text text-center">
                     <h1>Homestay</h1>
+                        <p>Homestay dikhususkan untuk sekolah yang berlokasi jauh dari NFBS Bogor</p>
                     <ul class="d-flex justify-content-center">
                         <li><a href="index.html">Home </a></li>
                         <li> <span>//</span></li>
@@ -21,7 +22,7 @@
         </div>
     </div>
 </div>
-<div class="page_wrapper">
+<div class="page_wrapper"> 
 
     <!-- contact section start -->
     <section class="contact_page_section mb-140">
@@ -31,11 +32,11 @@
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="contact_info_list left wow fadeInUp" data-bgimg="assets/img/others/gaming-world-bg1.webp" data-wow-delay="0.1s" data-wow-duration="1.1s" style="background-image: url(&quot;assets/img/others/gaming-world-bg1.webp&quot;); visibility: visible; animation-duration: 1.1s; animation-delay: 0.1s; animation-name: fadeInUp;">
                             <div class="contact_info_thumb">
-                                <img width="115" height="115" src="assets/img/icon/email.webp" alt="">
+                                <img width="115" height="115" src="assets/img/icon/thalib.webp" alt="">
                             </div>
                             <div class="contact_info_text">
                                 <h3>Thalib</h3>
-                                <a class="btn btn-link" href="match.html">Book Now</a>
+                                <a class="btn btn-link" href="http://www.blankwebsite.com/">Book Now</a>
 
                             </div>
                         </div>
@@ -47,11 +48,11 @@
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="contact_info_list right wow fadeInUp" data-bgimg="assets/img/others/gaming-world-bg3.webp" data-wow-delay="0.3s" data-wow-duration="1.3s" style="background-image: url(&quot;assets/img/others/gaming-world-bg3.webp&quot;); visibility: visible; animation-duration: 1.3s; animation-delay: 0.3s; animation-name: fadeInUp;">
                             <div class="contact_info_thumb">
-                                <img width="115" height="115" src="assets/img/icon/phone.webp" alt="">
+                                <img width="115" height="115" src="assets/img/icon/thalibah.webp" alt="">
                             </div>
                             <div class="contact_info_text">
                                 <h3>Thalibah</h3>
-                                <a class="btn btn-link" href="match.html">Book Now</a>
+                                <a class="btn btn-link" href="http://www.blankwebsite.com/">Book Now</a>
                             </div>
                         </div>
                     </div>
