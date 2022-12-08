@@ -34,17 +34,14 @@
                                 <img width="115" height="115" src="assets/img/icon/email.webp" alt="">
                             </div>
                             <div class="contact_info_text">
-                                <h3>Email:</h3>
-                                <p>
-                                    <a href="mailto:gamestudio@gmail.com">gamestudio@gmail.com</a> <br>
-                                    <a href="mailto:support24@gmail.com">support24@gmail.com</a>
-                                </p>
+                                <h3>Thalib</h3>
+                                <a class="btn btn-link" href="match.html">Book Now</a>
+
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="contact_info_list center wow fadeInUp" data-bgimg="assets/img/others/gaming-world-bg2.webp" data-wow-delay="0.2s" data-wow-duration="1.2s" style="background-image: url(&quot;assets/img/others/gaming-world-bg2.webp&quot;); visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp;">
-
+                        <div class="contact_info_list center wow fadeInUp" data-bgimg="" data-wow-delay="0.2s" data-wow-duration="1.2s" style="background-image: url; visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp;">
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
@@ -53,11 +50,8 @@
                                 <img width="115" height="115" src="assets/img/icon/phone.webp" alt="">
                             </div>
                             <div class="contact_info_text">
-                                <h3>Phone:</h3>
-                                <p>
-                                    <a href="tel:(402)685-5964"> (402) 685-5964</a>
-                                    <a href="tel:+88(00)4568457437"> +88 (00) 4568 457 437</a>
-                                </p>
+                                <h3>Thalibah</h3>
+                                <a class="btn btn-link" href="match.html">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -65,9 +59,7 @@
             </div>
         </div>
     </section>
-    <
-        <?= $this->endSection() ?>
-
-        <!-- CSS Load -->
-        <?= $this->section('loadJs') ?>
-        <?= $this->endSection() ?>
+    <?= $this->endSection() ?>
+    <!-- CSS Load -->
+    <?= $this->section('loadJs') ?>
+    <?= $this->endSection() ?>
