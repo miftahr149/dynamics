@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/animate.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/nice-select.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/magnific-popup.css">
+
+    <!-- Timeline CSS -->
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/timeline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/style.css">
     <?= $this->renderSection('loadCss') ?>
@@ -43,8 +47,8 @@
                                 <ul class="d-flex">
                                     <li><a href="<?php echo BASE_URL ?>">HOME</a></li>
                                     <li><a href="#about">ABOUT</a></li>
-                                    <li><a href="#">COMPETITION</a></li>
-                                    <li><a href="#">HOMESTAY</a></li>
+                                    <li><a href="<?php echo BASE_URL . 'competition' ?>">COMPETITION</a></li>
+                                    <li><a href="<?php echo BASE_URL . 'homestay' ?>">HOMESTAY</a></li>
                                     <li><a href="<?php echo BASE_URL . 'contact' ?>">CONTACT</a></li>
                                 </ul>
                             </nav>
@@ -66,8 +70,8 @@
             <ul class="offcanvas_main_menu">
                 <li class="menu-item-has-children"><a href="<?php echo BASE_URL ?>">HOME</a></li>
                 <li class="menu-item-has-children"><a href="#about">ABOUT</a></li>
-                <li class="menu-item-has-children"><a href="#">COMPETITION</a></li>
-                <li class="menu-item-has-children"><a href="#">HOMESTAY</a></li>
+                <li class="menu-item-has-children"><a href="<?php echo BASE_URL . 'competition' ?>">COMPETITION</a></li>
+                <li class="menu-item-has-children"><a href="<?php echo BASE_URL . 'homestay' ?>">HOMESTAY</a></li>
                 <li class="menu-item-has-children"><a href="<?php echo BASE_URL . 'contact' ?>">CONTACT</a></li>
             </ul>
         </div>
