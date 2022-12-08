@@ -1178,7 +1178,7 @@ textarea:-ms-input-placeholder {
 
 /* 06. footer css here */
 .main_footer_inner {
-  margin-bottom: 122px;
+  margin-bottom: 100px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1210,19 +1210,19 @@ textarea:-ms-input-placeholder {
 }
 
 .footer_widget_list {
-  margin-right: 100px;
+  margin-right: 250px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer_widget_list {
-    margin-right: 35px;
+    margin-right: 65px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer_widget_list {
     width: 45%;
-    margin-right: 40px;
+    margin-right: 55px;
     margin-bottom: 45px;
   }
 
@@ -1234,7 +1234,7 @@ textarea:-ms-input-placeholder {
 @media only screen and (max-width: 767px) {
   .footer_widget_list {
     width: 45%;
-    margin-right: 40px;
+    margin-right: 50px;
     margin-bottom: 45px;
   }
 
@@ -7956,4 +7956,22 @@ only screen and (max-width: 767px) {
   padding: 10%;
   width: 50%;
   height: 50%
+}
+
+.merchandisebtn {
+  padding: 2%;
+}
+
+.IframeMaps {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.IframeMaps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 200%;
 }
