@@ -3,9 +3,9 @@
 <!-- CSS Load -->
 <?= $this->section('loadCss') ?>
 <?= $this->endSection() ?>
+
 <?= $this->section('content') ?>
 <div class="page_wrapper">
-
     <!-- Home Page -->
     <section class="hero_banner_section d-flex align-items-center mb-130" data-bgimg="<?= BASE_URL ?>assets/img/bg/hero-bg1.webp">
         <div class="container">
@@ -74,335 +74,425 @@
                     </div>
                 </div>
             </section>
-            <!-- About Dynamics End -->
+        </div>
+        <!-- About Dynamics End -->
 
-            <!-- Our Target -->
-            <section class="counterup_section mb-115 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                <div class="container">
-                    <h2>Our Target</h2>
-                    <br>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="counterup_inner d-flex justify-content-center">
-                                <div class="single_counterup one">
-                                    <div class="counterup_text">
-                                        <h2 class="counterup color2">50</h2>
-                                        <span>SEKOLAH</span>
-                                    </div>
-                                </div>
-                                <div class="single_counterup two">
-                                    <div class="counterup_text">
-                                        <h2 class="counterup color3">500</h2>
-                                        <span>SISWA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Our Target End -->
-
-            <!-- Timeline -->
-            <section class="popular_gaming_section mb-140">
-                <h2>Timeline</h2>
+        <!-- Our Target -->
+        <section class="counterup_section text-center mb-115 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+            <div class="container">
+                <h2>Our Target</h2>
                 <br>
-                <div class="container-timeline">
-                    <div class="timeline">
-                        <div class="timeline-container primary">
-                            <div class="timeline-icon">
-                                <i class="fa-solid fa-book"></i>
-                            </div>
-                            <div class="timeline-body">
-                                <h4 class="timeline-title"><span class="badge">20 December 2022</span></h4>
-                                <h3>Open Registration</h3>
-                                <p class="timeline-subtitle">20 December 2022</p>
-                            </div>
-                        </div>
-                        <div class="timeline-container danger">
-                            <div class="timeline-icon">
-                                <i class="fa-solid fa-handshake"></i>
-                            </div>
-                            <div class="timeline-body">
-                                <h4 class="timeline-title"><span class="badge">30 December 2022</span></h4>
-                                <h3>Technical Meeting</h3>
-                                <p class="timeline-subtitle">30 December 2022</p>
-                            </div>
-                        </div>
-                        <div class="timeline-container success">
-                            <div class="timeline-icon">
-                                <i class="fa-brands fa-font-awesome"></i>
-                            </div>
-                            <div class="timeline-body">
-                                <h4 class="timeline-title"><span class="badge">4 January 2023</span></h4>
-                                <h3>Dynamics 2023</h3>
-                                <p class="timeline-subtitle">6 Hours Ago</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Timeline End -->
-
-            <!-- testimonial section start -->
-            <section class="testimonial_section wow fadeInUp" data-bgimg="<?= BASE_URL ?>assets/img/others/testimonial-bg-fullwidth.webp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                <div class="container">
-
-                </div>
-            </section>
-            <!-- testimonial section end -->
-
-            <!-- blog section start -->
-            <section class="blog_section mb-90">
-                <div class="container">
-                    <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                        <h2>Latest Blog</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna</p>
-                    </div>
-                    <div class="row blog_inner">
-                        <div class="col-lg-6">
-                            <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                                <div class="blog_thumb">
-                                    <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog1.webp" alt=""></a>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="counterup_inner d-flex justify-content-center">
+                            <div class="single_counterup one">
+                                <div class="counterup_text">
+                                    <h2 class="counterup color2">50</h2>
+                                    <span>SEKOLAH</span>
                                 </div>
-                                <div class="blog_content">
-                                    <div class="blog_date">
-                                        <span><i class="icofont-calendar"></i> 20 January 2021</span>
-                                    </div>
-                                    <h3><a href="blog-details.html">if you have seen Apple's
-                                            recent jabs.</a></h3>
-                                    <a href="blog-details.html">READ MORE</a>
+                            </div>
+                            <div class="single_counterup two">
+                                <div class="counterup_text">
+                                    <h2 class="counterup color3">500</h2>
+                                    <span>SISWA</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                                <div class="blog_thumb">
-                                    <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog2.webp" alt=""></a>
-                                </div>
-                                <div class="blog_content">
-                                    <div class="blog_date">
-                                        <span><i class="icofont-calendar"></i> 20 January 2021</span>
-                                    </div>
-                                    <h3><a href="blog-details.html">Lorem ipsum dolor sit amet, adipisicing elit.</a></h3>
-                                    <a href="blog-details.html">READ MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                                <div class="blog_thumb">
-                                    <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog3.webp" alt=""></a>
-                                </div>
-                                <div class="blog_content">
-                                    <div class="blog_date">
-                                        <span><i class="icofont-calendar"></i> 20 January 2021</span>
-                                    </div>
-                                    <h3><a href="blog-details.html"> Perferendis hic sint are rem, incidunt vitae.</a></h3>
-                                    <a href="blog-details.html">READ MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                                <div class="blog_thumb">
-                                    <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog4.webp" alt=""></a>
-                                </div>
-                                <div class="blog_content">
-                                    <div class="blog_date">
-                                        <span><i class="icofont-calendar"></i> 20 January 2021</span>
-                                    </div>
-                                    <h3><a href="blog-details.html">if you have seen Apple's
-                                            recent jabs.</a></h3>
-                                    <a href="blog-details.html">READ MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- blog section end -->
-
-            <!-- gaming update section start -->
-            <section class="gaming_update_section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="gaming_update_inner d-flex justify-content-between align-items-center" data-bgimg="<?= BASE_URL ?>assets/img/bg/gaming-update.webp">
-                                <div class="gaming_update_text">
-                                    <h2>JOIN US FOR MONEY</h2>
-                                </div>
-                                <div class="gaming_update_btn">
-                                    <a class="btn btn-link" href="contact.html">CONNECT NOW <img width="20" height="20" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon.webp" alt=""> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <div class="testimonial_list d-flex align-items-center">
-                <div class="testimonial_thumb">
-                    <img width="270" height="319" src="<?= BASE_URL ?>assets/img/others/testimonial-thumb.webp" alt="">
-                </div>
-                <div class="testimonial_content">
-                    <div class="testimonial_desc">
-                        <p>It is a long established fact that a reader will be distracted the
-                            readable content of page when looking at it layout the point using
-                            lorem Ipsum is that it has a more-or-less normal distribution lette
-                            as opposed to using making it look like readable english,
-                            many desktop publishing packages and web page now editors.</p>
-                    </div>
-                    <div class="testimonial_author">
-                        <h3>Randolph Frazier</h3>
-                        <span>Top Rated Gamer</span>
                     </div>
                 </div>
             </div>
-            <div class="testimonial_list d-flex align-items-center">
-                <div class="testimonial_thumb">
-                    <img width="270" height="319" src="<?= BASE_URL ?>assets/img/others/testimonial-thumb.webp" alt="">
-                </div>
-                <div class="testimonial_content">
-                    <div class="testimonial_desc">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus quos consectetur amet blanditiis, facilis esse illo unde saepe facere dolore porro asperiores ducimus, inventore voluptate doloribus odio fugit magnam voluptatum perferendis? Sit quisquam labore adipisci doloremque! Aperiam voluptate modi quasi are nobis.</p>
+        </section>
+        <!-- Our Target End -->
+
+        <!-- Timeline -->
+        <section class="popular_gaming_section text-center mb-140">
+            <h2>Timeline</h2>
+            <br>
+            <div class="container-timeline">
+                <div class="timeline">
+                    <div class="timeline-container primary">
+                        <div class="timeline-icon">
+                            <i class="fa-solid fa-book"></i>
+                        </div>
+                        <div class="timeline-body">
+                            <h4 class="timeline-title"><span class="badge">20 December 2022</span></h4>
+                            <h3>Open Registration</h3>
+                            <p class="timeline-subtitle">20 December 2022</p>
+                        </div>
                     </div>
-                    <div class="testimonial_author">
-                        <h3>Roar Spring</h3>
-                        <span>Top Rated Gamer</span>
+                    <div class="timeline-container danger">
+                        <div class="timeline-icon">
+                            <i class="fa-solid fa-handshake"></i>
+                        </div>
+                        <div class="timeline-body">
+                            <h4 class="timeline-title"><span class="badge">30 December 2022</span></h4>
+                            <h3>Technical Meeting</h3>
+                            <p class="timeline-subtitle">30 December 2022</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container success">
+                        <div class="timeline-icon">
+                            <i class="fa-brands fa-font-awesome"></i>
+                        </div>
+                        <div class="timeline-body">
+                            <h4 class="timeline-title"><span class="badge">4 January 2023</span></h4>
+                            <h3>Dynamics 2023</h3>
+                            <p class="timeline-subtitle">6 Hours Ago</p>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!-- Timeline End -->
+
+        <!-- testimonial section start -->
+        <section class="testimonial_section wow fadeInUp" data-bgimg="<?= BASE_URL ?>assets/img/others/testimonial-bg-fullwidth.webp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+            <div class="container">
 
             </div>
-            </section>
-            <!-- testimonial section end -->
+        </section>
+        <!-- testimonial section end -->
 
-            <!-- blog section start -->
-            <section class="blog_section mb-90">
-                <div class="container">
-                    <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                        <h2>Latest Blog</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna</p>
+        <!-- blog section start -->
+        <section class="blog_section mb-90">
+            <div class="container">
+                <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                    <h2>Latest Blog</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna</p>
+                </div>
+                <div class="row blog_inner">
+                    <div class="col-lg-6">
+                        <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                            <div class="blog_thumb">
+                                <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog1.webp" alt=""></a>
+                            </div>
+                            <div class="blog_content">
+                                <div class="blog_date">
+                                    <span><i class="icofont-calendar"></i> 20 January 2021</span>
+                                </div>
+                                <h3><a href="blog-details.html">if you have seen Apple's
+                                        recent jabs.</a></h3>
+                                <a href="blog-details.html">READ MORE</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row blog_inner">
-                        <div class="col-lg-6">
-                            <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                                <div class="blog_thumb">
-                                    <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog1.webp" alt=""></a>
+                    <div class="col-lg-6">
+                        <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                            <div class="blog_thumb">
+                                <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog2.webp" alt=""></a>
+                            </div>
+                            <div class="blog_content">
+                                <div class="blog_date">
+                                    <span><i class="icofont-calendar"></i> 20 January 2021</span>
                                 </div>
-                                <div class="blog_content">
-                                    <div class="blog_date">
-                                        <span><i class="icofont-calendar"></i> 20 January 2021</span>
-                                    </div>
-                                    <h3><a href="blog-details.html">if you have seen Apple's
-                                            recent jabs.</a></h3>
-                                    <a href="blog-details.html">READ MORE</a>
-                                </div>
+                                <h3><a href="blog-details.html">Lorem ipsum dolor sit amet, adipisicing elit.</a></h3>
+                                <a href="blog-details.html">READ MORE</a>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                                <div class="blog_thumb">
-                                    <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog2.webp" alt=""></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                            <div class="blog_thumb">
+                                <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog3.webp" alt=""></a>
+                            </div>
+                            <div class="blog_content">
+                                <div class="blog_date">
+                                    <span><i class="icofont-calendar"></i> 20 January 2021</span>
                                 </div>
-                                <div class="blog_content">
-                                    <div class="blog_date">
-                                        <span><i class="icofont-calendar"></i> 20 January 2021</span>
-                                    </div>
-                                    <h3><a href="blog-details.html">Lorem ipsum dolor sit amet, adipisicing elit.</a></h3>
-                                    <a href="blog-details.html">READ MORE</a>
-                                </div>
+                                <h3><a href="blog-details.html"> Perferendis hic sint are rem, incidunt vitae.</a></h3>
+                                <a href="blog-details.html">READ MORE</a>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                                <div class="blog_thumb">
-                                    <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog3.webp" alt=""></a>
-                                </div>
-                                <div class="blog_content">
-                                    <div class="blog_date">
-                                        <span><i class="icofont-calendar"></i> 20 January 2021</span>
-                                    </div>
-                                    <h3><a href="blog-details.html"> Perferendis hic sint are rem, incidunt vitae.</a></h3>
-                                    <a href="blog-details.html">READ MORE</a>
-                                </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                            <div class="blog_thumb">
+                                <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog4.webp" alt=""></a>
                             </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                                <div class="blog_thumb">
-                                    <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog4.webp" alt=""></a>
+                            <div class="blog_content">
+                                <div class="blog_date">
+                                    <span><i class="icofont-calendar"></i> 20 January 2021</span>
                                 </div>
-                                <div class="blog_content">
-                                    <div class="blog_date">
-                                        <span><i class="icofont-calendar"></i> 20 January 2021</span>
-                                    </div>
-                                    <h3><a href="blog-details.html">if you have seen Apple's
-                                            recent jabs.</a></h3>
-                                    <a href="blog-details.html">READ MORE</a>
-                                </div>
+                                <h3><a href="blog-details.html">if you have seen Apple's
+                                        recent jabs.</a></h3>
+                                <a href="blog-details.html">READ MORE</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- blog section end -->
+            </div>
+        </section>
+        <!-- blog section end -->
 
-            <!-- gaming update section start -->
-            <section class="gaming_update_section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="gaming_update_inner d-flex justify-content-between align-items-center" data-bgimg="<?= BASE_URL ?>assets/img/bg/gaming-update.webp">
-                                <div class="gaming_update_text">
-                                    <h2>Connect with us <br>
-                                        for gamING update.</h2>
-                                </div>
-                                <div class="gaming_update_btn">
-                                    <a class="btn btn-link" href="contact.html">CONNECT NOW <img width="20" height="20" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon.webp" alt=""> </a>
-                                </div>
+        <!-- gaming update section start -->
+        <section class="gaming_update_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="gaming_update_inner d-flex justify-content-between align-items-center" data-bgimg="<?= BASE_URL ?>assets/img/bg/gaming-update.webp">
+                            <div class="gaming_update_text">
+                                <h2>JOIN US FOR MONEY</h2>
+                            </div>
+                            <div class="gaming_update_btn">
+                                <a class="btn btn-link" href="contact.html">CONNECT NOW <img width="20" height="20" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon.webp" alt=""> </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- gaming update section end -->
+            </div>
+        </section>
+
+        <div class="testimonial_list d-flex align-items-center">
+            <div class="testimonial_thumb">
+                <img width="270" height="319" src="<?= BASE_URL ?>assets/img/others/testimonial-thumb.webp" alt="">
+            </div>
+            <div class="testimonial_content">
+                <div class="testimonial_desc">
+                    <p>It is a long established fact that a reader will be distracted the
+                        readable content of page when looking at it layout the point using
+                        lorem Ipsum is that it has a more-or-less normal distribution lette
+                        as opposed to using making it look like readable english,
+                        many desktop publishing packages and web page now editors.</p>
+                </div>
+                <div class="testimonial_author">
+                    <h3>Randolph Frazier</h3>
+                    <span>Top Rated Gamer</span>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial_list d-flex align-items-center">
+            <div class="testimonial_thumb">
+                <img width="270" height="319" src="<?= BASE_URL ?>assets/img/others/testimonial-thumb.webp" alt="">
+            </div>
+            <div class="testimonial_content">
+                <div class="testimonial_desc">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus quos consectetur amet blanditiis, facilis esse illo unde saepe facere dolore porro asperiores ducimus, inventore voluptate doloribus odio fugit magnam voluptatum perferendis? Sit quisquam labore adipisci doloremque! Aperiam voluptate modi quasi are nobis.</p>
+                </div>
+                <div class="testimonial_author">
+                    <h3>Roar Spring</h3>
+                    <span>Top Rated Gamer</span>
+                </div>
+            </div>
 
         </div>
-        <?= $this->endSection() ?>
+        </section>
+        <!-- testimonial section end -->
 
-        <?= $this->section('loadJs') ?>
-        <script src="<?= BASE_URL ?>assets/js/jquery.countdown.min.js"></script>
-        <script type="text/javascript">
-            $("#countdown-js")
-                .countdown("2023/01/15").on('update.countdown', function(event) {
-                    var $this = $(this).html(event.strftime('<div class="counterup_inner d-flex justify-content-center">' +
-                        ' <div class="single_counterup one">' +
-                        '<div class="counterup_text">' +
-                        ' <h2 class="counterup color1 hari">%D</h2>' +
-                        '<span>DAY</span>' +
-                        ' </div>' +
-                        ' </div>' +
-                        ' <div class="single_counterup two">' +
-                        ' <div class="counterup_text">' +
-                        '<h2 class="counterup color2 jam">%H</h2>' +
-                        ' <span>HOUR</span>' +
-                        '</div>' +
-                        ' </div>' +
-                        '<div class="single_counterup three">' +
-                        ' <div class="counterup_text">' +
-                        '<h2 class="counterup color3 menit">%M</h2>' +
-                        ' <span>MINUTE</span>' +
-                        '</div>' +
-                        ' </div>' +
-                        ' <div class="single_counterup four">' +
-                        ' <div class="counterup_text">' +
-                        '<h2 class="counterup color4 detik">%S</h2>' +
-                        '<span>SECOND</span>' +
-                        '</div>' +
-                        '</div>' +
-                        '</div>'));
-                });
-        </script>
-        <?= $this->endSection() ?>
-        >>>>>>> khoirul
+        <!-- blog section start -->
+        <section class="blog_section mb-90">
+            <div class="container">
+                <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                    <h2>Latest Blog</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna</p>
+                </div>
+                <div class="row blog_inner">
+                    <div class="col-lg-6">
+                        <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                            <div class="blog_thumb">
+                                <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog1.webp" alt=""></a>
+                            </div>
+                            <div class="blog_content">
+                                <div class="blog_date">
+                                    <span><i class="icofont-calendar"></i> 20 January 2021</span>
+                                </div>
+                                <h3><a href="blog-details.html">if you have seen Apple's
+                                        recent jabs.</a></h3>
+                                <a href="blog-details.html">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                            <div class="blog_thumb">
+                                <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog2.webp" alt=""></a>
+                            </div>
+                            <div class="blog_content">
+                                <div class="blog_date">
+                                    <span><i class="icofont-calendar"></i> 20 January 2021</span>
+                                </div>
+                                <h3><a href="blog-details.html">Lorem ipsum dolor sit amet, adipisicing elit.</a></h3>
+                                <a href="blog-details.html">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                            <div class="blog_thumb">
+                                <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog3.webp" alt=""></a>
+                            </div>
+                            <div class="blog_content">
+                                <div class="blog_date">
+                                    <span><i class="icofont-calendar"></i> 20 January 2021</span>
+                                </div>
+                                <h3><a href="blog-details.html"> Perferendis hic sint are rem, incidunt vitae.</a></h3>
+                                <a href="blog-details.html">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                            <div class="blog_thumb">
+                                <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog4.webp" alt=""></a>
+                            </div>
+                            <div class="blog_content">
+                                <div class="blog_date">
+                                    <span><i class="icofont-calendar"></i> 20 January 2021</span>
+                                </div>
+                                <h3><a href="blog-details.html">if you have seen Apple's
+                                        recent jabs.</a></h3>
+                                <a href="blog-details.html">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog section end -->
+
+        <!-- gaming update section start -->
+        <section class="gaming_update_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="gaming_update_inner d-flex justify-content-between align-items-center" data-bgimg="<?= BASE_URL ?>assets/img/bg/gaming-update.webp">
+                            <div class="gaming_update_text">
+                                <h2>Connect with us <br>
+                                    for gamING update.</h2>
+                            </div>
+                            <div class="gaming_update_btn">
+                                <a class="btn btn-link" href="contact.html">CONNECT NOW <img width="20" height="20" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon.webp" alt=""> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gaming update section end -->
+
+    </div>
+    <!-- blog section start -->
+    <section class="blog_section mb-90">
+        <div class="container">
+            <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                <h2>Latest Blog</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna</p>
+            </div>
+            <div class="row blog_inner">
+                <div class="col-lg-6">
+                    <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                        <div class="blog_thumb">
+                            <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog1.webp" alt=""></a>
+                        </div>
+                        <div class="blog_content">
+                            <div class="blog_date">
+                                <span><i class="icofont-calendar"></i> 20 January 2021</span>
+                            </div>
+                            <h3><a href="blog-details.html">if you have seen Apple's
+                                    recent jabs.</a></h3>
+                            <a href="blog-details.html">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                        <div class="blog_thumb">
+                            <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog2.webp" alt=""></a>
+                        </div>
+                        <div class="blog_content">
+                            <div class="blog_date">
+                                <span><i class="icofont-calendar"></i> 20 January 2021</span>
+                            </div>
+                            <h3><a href="blog-details.html">Lorem ipsum dolor sit amet, adipisicing elit.</a></h3>
+                            <a href="blog-details.html">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                        <div class="blog_thumb">
+                            <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog3.webp" alt=""></a>
+                        </div>
+                        <div class="blog_content">
+                            <div class="blog_date">
+                                <span><i class="icofont-calendar"></i> 20 January 2021</span>
+                            </div>
+                            <h3><a href="blog-details.html"> Perferendis hic sint are rem, incidunt vitae.</a></h3>
+                            <a href="blog-details.html">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single_blog d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                        <div class="blog_thumb">
+                            <a href="blog-details.html"><img width="200" height="200" src="<?= BASE_URL ?>assets/img/blog/blog4.webp" alt=""></a>
+                        </div>
+                        <div class="blog_content">
+                            <div class="blog_date">
+                                <span><i class="icofont-calendar"></i> 20 January 2021</span>
+                            </div>
+                            <h3><a href="blog-details.html">if you have seen Apple's
+                                    recent jabs.</a></h3>
+                            <a href="blog-details.html">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section end -->
+
+    <!-- gaming update section start -->
+    <section class="gaming_update_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="gaming_update_inner d-flex justify-content-between align-items-center" data-bgimg="<?= BASE_URL ?>assets/img/bg/gaming-update.webp">
+                        <div class="gaming_update_text">
+                            <h2>Connect with us <br>
+                                for gamING update.</h2>
+                        </div>
+                        <div class="gaming_update_btn">
+                            <a class="btn btn-link" href="contact.html">CONNECT NOW <img width="20" height="20" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon.webp" alt=""> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<?= $this->endSection() ?>
+
+<?= $this->section('loadJs') ?>
+<script src="<?= BASE_URL ?>assets/js/jquery.countdown.min.js"></script>
+<script type="text/javascript">
+    $("#countdown-js")
+        .countdown("2023/01/15").on('update.countdown', function(event) {
+            var $this = $(this).html(event.strftime('<div class="counterup_inner d-flex justify-content-center">' +
+                ' <div class="single_counterup one">' +
+                '<div class="counterup_text">' +
+                ' <h2 class="counterup color1 hari">%D</h2>' +
+                '<span>DAY</span>' +
+                ' </div>' +
+                ' </div>' +
+                ' <div class="single_counterup two">' +
+                ' <div class="counterup_text">' +
+                '<h2 class="counterup color2 jam">%H</h2>' +
+                ' <span>HOUR</span>' +
+                '</div>' +
+                ' </div>' +
+                '<div class="single_counterup three">' +
+                ' <div class="counterup_text">' +
+                '<h2 class="counterup color3 menit">%M</h2>' +
+                ' <span>MINUTE</span>' +
+                '</div>' +
+                ' </div>' +
+                ' <div class="single_counterup four">' +
+                ' <div class="counterup_text">' +
+                '<h2 class="counterup color4 detik">%S</h2>' +
+                '<span>SECOND</span>' +
+                '</div>' +
+                '</div>' +
+                '</div>'));
+        });
+</script>
+<?= $this->endSection() ?>
