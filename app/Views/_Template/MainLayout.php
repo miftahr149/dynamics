@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/animate.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/nice-select.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/magnific-popup.css">
+
+    <!-- Timeline CSS -->
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/timeline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/style.css">
     <?= $this->renderSection('loadCss') ?>
