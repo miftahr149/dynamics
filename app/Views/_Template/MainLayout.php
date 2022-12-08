@@ -48,11 +48,8 @@
                                     <li><a href="<?php echo BASE_URL ?>">HOME</a></li>
                                     <li><a href="#about">ABOUT</a></li>
                                     <li><a href="<?php echo BASE_URL . 'competition' ?>">COMPETITION</a></li>
-<<<<<<< HEAD
                                     <li><a href="#">HOMESTAY</a></li>
-=======
                                     <li><a href="<?php echo BASE_URL . 'homestay' ?>">HOMESTAY</a></li>
->>>>>>> 9abad0aa724589bcf5a925f62ecd57a36e625c1d
                                     <li><a href="<?php echo BASE_URL . 'contact' ?>">CONTACT</a></li>
                                 </ul>
                             </nav>
