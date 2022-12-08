@@ -3227,15 +3227,6 @@ section.error_section {
   position: relative;
 }
 
-.testimonial_section::before {
-  position: absolute;
-  content: "";
-  width: 38%;
-  height: 10px;
-  background: #b154f0;
-  right: 0;
-  top: 185px;
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial_section::before {
