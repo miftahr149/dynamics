@@ -48,8 +48,13 @@
                                     <li><a href="<?php echo BASE_URL ?>">HOME</a></li>
                                     <li><a href="#about">ABOUT</a></li>
                                     <li><a href="#">COMPETITION</a></li>
+<<<<<<< HEAD
+                                    <li><a href="<?php echo BASE_URL . 'homestay' ?>">HOMESTAY</a></li>
+                                    <li><a href="#">CONTACT</a></li>
+=======
                                     <li><a href="#">HOMESTAY</a></li>
                                     <li><a href="<?php echo BASE_URL . 'contact' ?>">CONTACT</a></li>
+>>>>>>> main
                                 </ul>
                             </nav>
                         </div>
@@ -71,8 +76,13 @@
                 <li class="menu-item-has-children"><a href="<?php echo BASE_URL ?>">HOME</a></li>
                 <li class="menu-item-has-children"><a href="#about">ABOUT</a></li>
                 <li class="menu-item-has-children"><a href="#">COMPETITION</a></li>
+<<<<<<< HEAD
+                <li class="menu-item-has-children"><a href="<?php echo BASE_URL . 'homestay' ?>">HOMESTAY</a></li>
+                <li class="menu-item-has-children"><a href="#">CONTACT</a></li>
+=======
                 <li class="menu-item-has-children"><a href="#">HOMESTAY</a></li>
                 <li class="menu-item-has-children"><a href="<?php echo BASE_URL . 'contact' ?>">CONTACT</a></li>
+>>>>>>> main
             </ul>
         </div>
     </div>
