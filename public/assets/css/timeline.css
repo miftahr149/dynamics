@@ -1,5 +1,5 @@
 .container-timeline {
-    max-width: 650px;
+    max-width: 1240px;
     margin: 50px auto;
   }
   
@@ -15,7 +15,7 @@
     left: 0;
     top: 0;
     width: 4px;
-    height: 125%;
+    height: 100%;
     background: #160D38;
   }
   .timeline .timeline-container {

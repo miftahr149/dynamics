@@ -54,6 +54,14 @@
                             </nav>
                         </div>
                         <!--main menu end-->
+                        <div class="header_right_sidebar d-flex align-items-center">
+                            <div class="sing_up_btn">
+                                <a class="btn btn-link" href="registration.html">JOIN NOW <img width="15" height="15" src="assets/img/icon/arrrow-icon2.webp" alt=""> </a>
+                            </div>
+                            <div class="canvas_open">
+                                <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"><i class="icofont-navigation-menu"></i></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -91,72 +99,38 @@
                         <div class="main_footer_inner d-flex">
                             <div class="footer_widget_list">
                                 <div class="footer_logo">
-                                    <a href="#"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/dynamics/dynamicsresize.webp" alt=""></a>
-                                </div>
-                                <div class="footer_contact_desc">
-                                    <p>It long estabhed fact that reader
-                                        will ditracted the readable content
-                                        looking using readable.</p>
-                                </div>
-                                <div class="footer_social">
-                                    <ul class="d-flex">
-                                        <li><a aria-label="facebook" class="facebook" href="https://www.facebook.com/"><i class="icofont-facebook"></i></a></li>
-                                        <li><a aria-label="dribble" class="dribbble" href="https://dribbble.com/"><i class="icofont-dribbble"></i></a></li>
-                                        <li><a aria-label="youtube" class="youtube" href="https://www.youtube.com/"><i class="icofont-youtube-play"></i></a></li>
-                                        <li><a aria-label="twitter" class="twitter" href="https://twitter.com/"><i class="icofont-twitter"></i></a></li>
-                                    </ul>
+                                    <div class="footer_widget_list contact">
+                                        <h3 align="left">Contact Us</h3>
+                                        <div class="footer_contact_info">
+                                            <div text-align="left" class="footer_contact_info_list">
+                                                <p align="left">Nurul Fikri Boarding School Bogor, Jl Jami, Sukaluyu, Tamansari, Bogor, Jawa Barat, 16610 </p>
+                                                <p align="left">
+                                                    <i class="fa-brands fa-telegram"></i> 0812345678 (Orang Public)<br>
+                                                    <i class="fa-brands fa-telegram"></i> 0812345678 (Orang Public)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="footer_widget_list contact">
-                                <h3>Contact</h3>
+                                <h3>Our Location</h3>
                                 <div class="footer_contact_info">
-                                    <div class="footer_contact_info_list">
-                                        <span>Location:</span>
-                                        <p>136 Harding Ave
-                                            Wheeling, West Virginia</p>
-                                    </div>
-                                    <div class="footer_contact_info_list">
-                                        <span>Phone:</span>
-                                        <p><a href="#">00 (62) 632 867 4497</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="footer_widget_list">
-                                <h3>today’s winners</h3>
-                                <div class="footer_winners_gallery">
-                                    <div class="footer_winners_list d-flex">
-                                        <div class="footer_winners_thumb">
-                                            <a href="game-details.html"><img aria-label="game-team" width="75" height="75" src="<?= BASE_URL ?>assets/img/others/winners1.webp" alt=""></a>
-                                        </div>
-                                        <div class="footer_winners_thumb">
-                                            <a href="game-details.html"><img aria-label="game-team" width="75" height="75" src="<?= BASE_URL ?>assets/img/others/winners2.webp" alt=""></a>
-                                        </div>
-                                        <div class="footer_winners_thumb">
-                                            <a href="game-details.html"><img aria-label="game-team" width="75" height="75" src="<?= BASE_URL ?>assets/img/others/winners3.webp" alt=""></a>
-                                        </div>
-                                    </div>
-                                    <div class="footer_winners_list d-flex">
-                                        <div class="footer_winners_thumb">
-                                            <a href="game-details.html"><img aria-label="game-team" width="75" height="75" src="<?= BASE_URL ?>assets/img/others/winners4.webp" alt=""></a>
-                                        </div>
-                                        <div class="footer_winners_thumb">
-                                            <a href="game-details.html"><img aria-label="game-team" width="75" height="75" src="<?= BASE_URL ?>assets/img/others/winners5.webp" alt=""></a>
-                                        </div>
-                                        <div class="footer_winners_thumb">
-                                            <a href="game-details.html"><img aria-label="game-team" width="75" height="75" src="<?= BASE_URL ?>assets/img/others/winners6.webp" alt=""></a>
+                                    <div class="footer_menu">
+                                        <div class="IframeMaps">
+                                            <iframe align="center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495.3758142809018!2d106.73936127916559!3d-6.646111334943906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69cfe9c107505b%3A0x4735acf516e63e79!2sNFBS%20Bogor!5e0!3m2!1sid!2sid!4v1670491685373!5m2!1sid!2sid" width="400" height="300" style="border:5;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="footer_widget_list footer_list_menu">
-                                <h3>Content</h3>
-                                <div class="footer_menu">
-                                    <ul>
-                                        <li><a href="about.html"> Copywriting</a></li>
-                                        <li><a href="about.html">Social Media</a></li>
-                                        <li><a href="about.html">Interactive Media</a></li>
-                                        <li><a href="about.html">Motion Design</a></li>
-                                        <li><a href="about.html">Illustration</a></li>
+                                <h3>Social Media</h3>
+                                <div class="footer_social">
+                                    <ul class="d-flex">
+                                        <li><a aria-label="facebook" class="facebook" href="https://www.facebook.com"><i class="icofont-facebook"></i></a></li>
+                                        <li><a aria-label="dribble" class="dribbble" href="https://dribbble.com"><i class="icofont-dribbble"></i></a></li>
+                                        <li><a aria-label="youtube" class="youtube" href="https://www.youtube.com"><i class="icofont-youtube-play"></i></a></li>
+                                        <li><a aria-label="twitter" class="twitter" href="https://twitter.com"><i class="icofont-twitter"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
