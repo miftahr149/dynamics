@@ -69,7 +69,27 @@
                             </p>
                         </div>
                         <div class="col-lg-6">
-                            <img class="img-fluid animate__shakeY" src="<?= BASE_URL ?>assets/img/dynamics/mascot.png" alt="">
+                            <div class="mascot-container">
+                                <div class="Mascot">
+                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot1.png">
+                                </div>
+
+                                <div class="Mascot">
+                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot2.png">
+                                </div>
+
+                                <div class="Mascot">
+                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot3.png">
+                                </div>
+
+                                <div class="Mascot">
+                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot4.png">
+                                </div>
+
+                                <div class="Mascot">
+                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot5.png">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -340,5 +360,25 @@
                                 '</div>'));
                         });
                 </script>
+
+                <!-- Mascot Slideshow -->
+                <script>
+                    let slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                        let i;
+                        let slides = document.getElementsByClassName("Mascot");
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) {
+                            slideIndex = 1
+                        }
+
+                        slides[slideIndex - 1].style.display = "block";
+                        setTimeout(showSlides, 1500);
+                    }
+                </script>
                 <?= $this->endSection() ?>
-                >>>>>>> khoirul
