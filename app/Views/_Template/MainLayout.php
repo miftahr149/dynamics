@@ -14,8 +14,8 @@
     ========================= -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Metal+Mania&amp;display=swap" rel="stylesheet">
-
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Metal+Mania&amp;display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500&family=Roboto:ital,wght@0,900;1,100;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/slick.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/icofont.min.css">
@@ -56,7 +56,7 @@
                         <!--main menu end-->
                         <div class="header_right_sidebar d-flex align-items-center">
                             <div class="sing_up_btn">
-                                <a class="btn btn-link" href="registration.html">JOIN NOW <img width="15" height="15" src="assets/img/icon/arrrow-icon2.webp" alt=""> </a>
+                                <a class="btn btn-link" href="<?php echo BASE_URL."competition"?>">JOIN NOW <img width="15" height="15" src="assets/img/icon/arrrow-icon2.webp" alt=""> </a>
                             </div>
                             <div class="canvas_open">
                                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"><i class="icofont-navigation-menu"></i></button>
@@ -191,15 +191,8 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Typed JS -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   
 
-    <script type="text/javascript">
-        var typed = new Typed('.typedjs', {
-            strings: ["Preserving Youth Legacy through Social Movement & Competitions"],
-            typeSpeed: 40,
-            showCursor: false
-        });
-    </script>
 
     <!-- Main JS -->
     <script src="<?= BASE_URL ?>assets/js/main.js"></script>

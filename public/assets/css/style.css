@@ -1863,7 +1863,9 @@ textarea:-ms-input-placeholder {
 
 .hero_content h1 {
   margin-bottom: 41px;
-  font-family: "Metal Mania", cursive;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 900;
   text-shadow: 3px 3px 0px #b154f0;
 }
 

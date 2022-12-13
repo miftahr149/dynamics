@@ -11,9 +11,9 @@
                 <div class="row align-items-center">
                     <div class="col-12">
                         <div class="hero_content">
-                            <h1 class="wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">DYNAMICS 2023</h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">Preserving Youth Legacy through Social Movement</p>
-                            <a class="btn btn-link wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1.3s" href="all-game.html">Play Now <img width="20" height="20" src="assets/img/icon/arrrow-icon.webp" alt=""> </a>
+                            <h1 class="wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">DYNAMICS<br>2023</h1>
+                            <p class="wow fadeInUp typedjs"></p>
+                            <a class="btn btn-link wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1.3s" href="<?php echo BASE_URL . "competition" ?>">Join Now<img width="20" height="20" src="assets/img/icon/arrrow-icon.webp" alt="arrrow-icon.webp"> </a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                                 Youth Charity Concert, dan Next Leader Competitions.
                             </p>
                             <div class="sing_up_btn">
-                                <a class="btn btn-link" href="registration.html">CLICK HERE <img width="15" height="15" src="assets/img/icon/arrrow-icon2.webp" alt=""> </a>
+                                <a class="btn btn-link" href="registration.html">CLICK HERE<img width="15" height="15" src="assets/img/icon/arrrow-icon2.webp" alt="sdfs"></a>
                             </div>
                         </div>
 
@@ -69,59 +69,32 @@
                     <div class="col-lg-6 col-md-6">
                         <!-- <img class="mg-fluid animate__shakeY" src="<?= BASE_URL ?>assets/img/dynamics/mascot.png" alt=""> -->
                         <div class="mascot-container">
-                                <div class="Mascot">
-                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot1.png">
-                                </div>
-
-                                <div class="Mascot">
-                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot2.png">
-                                </div>
-
-                                <div class="Mascot">
-                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot3.png">
-                                </div>
-
-                                <div class="Mascot">
-                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot4.png">
-                                </div>
-
-                                <div class="Mascot">
-                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot5.png">
-                                </div>
+                            <div class="Mascot">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/mascot1.png">
                             </div>
+
+                            <div class="Mascot">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/mascot2.png">
+                            </div>
+
+                            <div class="Mascot">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/mascot3.png">
+                            </div>
+
+                            <div class="Mascot">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/mascot4.png">
+                            </div>
+
+                            <div class="Mascot">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/mascot5.png">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- About Dynamics End -->
-
-    <!-- Our Target -->
-    <section class="counterup_section mb-115 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-        <div class="container">
-            <h2>Our Target</h2>
-            <br>
-            <div class="row">
-                <div class="col-12">
-                    <div class="counterup_inner d-flex justify-content-center">
-                        <div class="single_counterup one">
-                            <div class="counterup_text">
-                                <h2 class="counterup color2">50</h2>
-                                <span>SEKOLAH</span>
-                            </div>
-                        </div>
-                        <div class="single_counterup two">
-                            <div class="counterup_text">
-                                <h2 class="counterup color3">500</h2>
-                                <span>SISWA</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Our Target End -->
 
     <!-- Competitions -->
     <section class="upcoming_gaming_section mb-125">
@@ -175,31 +148,6 @@
         </div>
     </section>
 
-    <section class="blog_section mb-90">
-        <div class="container">
-            <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                <h2>DYNAMICS MERCHANDISE</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna</p>
-            </div>
-            <img width="100%" height="80%" class="merchandise wow FadeInUp" src="http://192.168.100.100/dynamic/assets/images/merchand/MERCH.png"></img>
-            <div class="merchandisebtn">
-                <a class="btn btn-link" href="contact.html">BUY NOW</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="blog_section mb-90">
-        <div class="container">
-            <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                <h2>Competitions</h2>
-                <p>Dynamics 2022 Hadir Dengan 100 Kompetisi yang Diadakan Online & Offline.</p>
-                <div class="competitionbutton text-center wow fadeInUp mb-70">
-                    <a class="btn btn-link wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1.3s" href="all-game.html">REGISTER NOW</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Merchandise -->
     <section class="blog_section mb-90">
         <div class="container">
@@ -208,42 +156,9 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna</p>
             </div>
             <img width="100%" height="80%" class="merchandise wow FadeInUp" src="http://192.168.100.100/dynamic/assets/images/merchand/MERCH.png"></img>
-            <div class="merchandisebtn">
-                <a class="btn btn-link" href="contact.html">BUY NOW</a>
-            </div>
         </div>
     </section>
     <!-- Merchandise -->
-
-    <!-- Sponsor -->
-    <section class="blog_section mb-90">
-        <div class="container">
-            <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                <h2>SPONSORS</h2>
-                <p>Dynamics 23 Media Partner & Sponsor</p>
-            </div>
-        </div>
-    </section>
-    <!-- blog section end -->
-
-    <!-- gaming update section start -->
-    <section class="gaming_update_section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="gaming_update_inner d-flex justify-content-between align-items-center" data-bgimg="<?= BASE_URL ?>assets/img/bg/gaming-update.webp">
-                        <div class="gaming_update_text">
-                            <h2>Connect with us <br>
-                                for gamING update.</h2>
-                        </div>
-                        <div class="gaming_update_btn">
-                            <a class="btn btn-link" href="contact.html">CONNECT NOW <img width="20" height="20" src="<?= BASE_URL ?>assets/img/icon/arrrow-icon.webp" alt=""> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="testimonial_section wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
         <div class="container">
@@ -350,12 +265,22 @@
 
 <?= $this->section('loadJs') ?>
 <script src="<?= BASE_URL ?>assets/js/jquery.countdown.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script type="text/javascript">
     var slideIndex = 0;
-    $(document).ready(function() {        
+    $(document).ready(function() {
         showSlides();
     });
-   
+
+    var typed = new Typed('.typedjs', {
+        strings: ["Preserving Youth Legacy through Social Movement & Competitions"],
+        typeSpeed: 100,
+        backSpeed: 50,
+        showCursor: true,
+        cursorChar: '|',
+        loop: true,
+    });
+
 
     $("#countdown-js")
         .countdown("2023/01/15").on('update.countdown', function(event) {
@@ -401,6 +326,5 @@
         slides[slideIndex - 1].style.display = "block";
         setTimeout(showSlides, 1500);
     }
-    
 </script>
 <?= $this->endSection() ?>
