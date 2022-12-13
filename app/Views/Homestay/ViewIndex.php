@@ -11,7 +11,7 @@
             <div class="col-12">
                 <div class="breadcrumbs_text text-center">
                     <h1>Homestay</h1>
-                        <p>Homestay dikhususkan untuk sekolah yang berlokasi jauh dari NFBS Bogor</p>
+                    <p>Homestay dikhususkan untuk sekolah yang berlokasi jauh dari NFBS Bogor</p>
                     <ul class="d-flex justify-content-center">
                         <li><a href="index.html">Home </a></li>
                         <li> <span>//</span></li>
@@ -22,40 +22,41 @@
         </div>
     </div>
 </div>
-<div class="page_wrapper"> 
+<div class="page_wrapper">
 
     <!-- contact section start -->
     <section class="contact_page_section mb-140">
         <div class="container">
             <div class="contact_info_area">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="col-lg-1 col-md-1"></div>
+                    <div class="col-lg-4 col-md-4">
                         <div class="contact_info_list left wow fadeInUp" data-bgimg="assets/img/others/gaming-world-bg1.webp" data-wow-delay="0.1s" data-wow-duration="1.1s" style="background-image: url(&quot;assets/img/others/gaming-world-bg1.webp&quot;); visibility: visible; animation-duration: 1.1s; animation-delay: 0.1s; animation-name: fadeInUp;">
                             <div class="contact_info_thumb">
-                                <img width="115" height="115" src="assets/img/icon/thalib.webp" alt="">
+                                <img src="assets/img/thalib.webp" alt="">
                             </div>
-                            <div class="contact_info_text">
+                            <div class="contact_info_text  text-center">
                                 <h3>Thalib</h3>
-                                <a class="btn btn-link" href="http://www.blankwebsite.com/">Book Now</a>
+                                <a class="btn btn-link" onclick="btnBooking()" href="javascript:void(0)">Book Now</a>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="contact_info_list center wow fadeInUp" data-bgimg="" data-wow-delay="0.2s" data-wow-duration="1.2s" style="background-image: url; visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        </div>
+                    <div class="col-lg-2 col-md-2">
+
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4">
                         <div class="contact_info_list right wow fadeInUp" data-bgimg="assets/img/others/gaming-world-bg3.webp" data-wow-delay="0.3s" data-wow-duration="1.3s" style="background-image: url(&quot;assets/img/others/gaming-world-bg3.webp&quot;); visibility: visible; animation-duration: 1.3s; animation-delay: 0.3s; animation-name: fadeInUp;">
                             <div class="contact_info_thumb">
-                                <img width="115" height="115" src="assets/img/icon/thalibah.webp" alt="">
+                                <img  src="assets/img/thalibah.webp" alt="">
                             </div>
-                            <div class="contact_info_text">
+                            <div class="contact_info_text text-center">
                                 <h3>Thalibah</h3>
-                                <a class="btn btn-link" href="http://www.blankwebsite.com/">Book Now</a>
+                                <a class="btn btn-link" onclick="btnBooking()" href="javascript:void(0)">Book Now</a>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-1 col-md-1"></div>
                 </div>
             </div>
         </div>
@@ -63,4 +64,13 @@
     <?= $this->endSection() ?>
     <!-- CSS Load -->
     <?= $this->section('loadJs') ?>
+    <script>
+        function btnBooking() {
+            Swal.fire(
+                'Dynamics 2023',
+                'Sorry, this menu is not yet available',
+                'warning'
+            )
+        }
+    </script>
     <?= $this->endSection() ?>

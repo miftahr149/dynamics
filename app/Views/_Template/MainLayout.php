@@ -188,7 +188,7 @@
     <script src="<?= BASE_URL ?>assets/js/jquery.magnific-popup.min.js"></script>
     <script src="<?= BASE_URL ?>assets/js/jquery.counterup.min.js"></script>
     <script src="<?= BASE_URL ?>assets/js/jquery-waypoints.js"></script>
-
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Typed JS -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
