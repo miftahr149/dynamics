@@ -5,7 +5,6 @@
 <?= $this->endSection() ?>
 <?= $this->section('content') ?>
 <div class="page_wrapper">
-
     <section class="hero_banner_section d-flex align-items-center mb-130" data-bgimg="<?= BASE_URL ?>assets/img/bg/hero-bg1.webp">
         <div class="container">
             <div class="hero_banner_inner">
@@ -68,7 +67,28 @@
 
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <img class="img-fluid animate__shakeY" src="<?= BASE_URL ?>assets/img/dynamics/mascot.png" alt="">
+                        <!-- <img class="mg-fluid animate__shakeY" src="<?= BASE_URL ?>assets/img/dynamics/mascot.png" alt=""> -->
+                        <div class="mascot-container">
+                                <div class="Mascot">
+                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot1.png">
+                                </div>
+
+                                <div class="Mascot">
+                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot2.png">
+                                </div>
+
+                                <div class="Mascot">
+                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot3.png">
+                                </div>
+
+                                <div class="Mascot">
+                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot4.png">
+                                </div>
+
+                                <div class="Mascot">
+                                    <img src="<?= BASE_URL ?>assets/img/dynamics/mascot5.png">
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -112,7 +132,7 @@
             <div class="upcoming_gaming_inner">
                 <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center mb-30" data-wow-delay="0.1s" data-wow-duration="1.1s">
                     <div class="upcoming_gaming_text">
-                        <p>20 December 2022</p>
+                        <p>15 December 2022 ~ 15 January 2023</p>
                         <h3>OPEN REGISTRATION</h3>
                         <span>08 Teams Registered</span>
                     </div>
@@ -225,8 +245,8 @@
         </div>
     </section>
 
-    <section class="testimonial_section wow fadeInUp"  data-wow-delay="0.1s" data-wow-duration="1.1s">
-        <div class="container">           
+    <section class="testimonial_section wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+        <div class="container">
             <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
                 <h2>GALLERY</h2>
                 <p>Dynamics 23 Media Partner & Sponsor</p>
@@ -331,6 +351,12 @@
 <?= $this->section('loadJs') ?>
 <script src="<?= BASE_URL ?>assets/js/jquery.countdown.min.js"></script>
 <script type="text/javascript">
+    var slideIndex = 0;
+    $(document).ready(function() {        
+        showSlides();
+    });
+   
+
     $("#countdown-js")
         .countdown("2023/01/15").on('update.countdown', function(event) {
             var $this = $(this).html(event.strftime('<div class="counterup_inner d-flex justify-content-center">' +
@@ -360,5 +386,21 @@
                 '</div>' +
                 '</div>'));
         });
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("Mascot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 1500);
+    }
+    
 </script>
 <?= $this->endSection() ?>
