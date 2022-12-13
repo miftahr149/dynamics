@@ -62,22 +62,19 @@
                                 Youth Charity Concert, dan Next Leader Competitions.
                             </p>
                             <div class="sing_up_btn">
-                                <a class="btn btn-link" href="registration.html">CLICK HERE  <img width="15" height="15" src="assets/img/icon/arrrow-icon2.webp" alt=""> </a>
+                                <a class="btn btn-link" href="registration.html">CLICK HERE <img width="15" height="15" src="assets/img/icon/arrrow-icon2.webp" alt=""> </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <a href="#"><img width="570" height="330" src="<?= BASE_URL ?>assets/img/dynamics/mascot.png" alt=""></a>
-                        <div class="gaming_details_btn">
-                            <a class="btn btn-link" href="game-details.html">Game Details <img width="20" height="20" src="assets/img/icon/arrrow-icon.webp" alt=""> </a>
+                        <div class="col-lg-6">
+                            <img class="img-fluid animate__shakeY" src="<?= BASE_URL ?>assets/img/dynamics/mascot.png" alt="">
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
     </section>
+    <!-- About Dynamics End -->
+
     <!-- Our Target -->
-    <!-- <section class="counterup_section mb-115 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+    <section class="counterup_section mb-115 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
         <div class="container">
             <h2>Our Target</h2>
             <br>
@@ -100,7 +97,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- Our Target End -->
 
     <!-- Timeline -->
@@ -172,12 +169,12 @@
                         <h3>TECHNICAL MEETING</h3>
                         <span>08 Teams Registered</span>
                     </div>
-                    
+
                     <div class="upcoming_gaming_thumb d-flex align-items-center">
                         <div class="single_upcoming_thumb">
-                        <img src="assets/img/astronot-roket.webp" alt="astronot-roket.webp">
-                        <img src="assets/img/astronot-roket2.webp" alt="astronot-roket2.webp">
-                        </div>                       
+                            <img src="assets/img/astronot-roket.webp" alt="astronot-roket.webp">
+                            <img src="assets/img/astronot-roket2.webp" alt="astronot-roket2.webp">
+                        </div>
                     </div>
                 </div>
                 <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center" data-wow-delay="0.3s" data-wow-duration="1.3s">
@@ -186,11 +183,11 @@
                         <h3>DYNAMICS 2023</h3>
                         <span>08 Teams Registered</span>
                     </div>
-                  
+
                     <div class="upcoming_gaming_thumb d-flex align-items-center">
                         <div class="single_upcoming_thumb">
                             <img src="assets/img/maskot-dynamic-event.webp" alt="maskot-dynamic-event.webp">
-                        </div>                      
+                        </div>
                     </div>
                 </div>
             </div>
@@ -406,4 +403,3 @@
         });
 </script>
 <?= $this->endSection() ?>
->>>>>>> khoirul
