@@ -39,7 +39,7 @@
                 <div class="col-12">
                     <div class="main_header d-flex justify-content-between align-items-center">
                         <div class="header_logo">
-                            <a class="sticky_none" href="#"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/dynamics/dynamicsresize.webp" alt=""></a>
+                            <a class="sticky_none" href="#"><img aria-label="logo" width="215" height="79" src="<?= BASE_URL ?>assets/img/logo-dynamics.webp" alt="logo-dynamics.webp"></a>
                         </div>
                         <!--main menu start-->
                         <div class="main_menu d-none d-lg-block">
@@ -91,51 +91,57 @@
     <!-- page wrapper end -->
 
     <!--footer area start-->
+
     <footer class="footer_widgets">
         <div class="main_footer">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="main_footer_inner d-flex">
-                            <div class="footer_widget_list">
+                            <div class="footer_widget_list contact">
                                 <div class="footer_logo">
-                                    <div class="footer_widget_list contact">
-                                        <h3 align="left">Contact Us</h3>
-                                        <div class="footer_contact_info">
-                                            <div text-align="left" class="footer_contact_info_list">
-                                                <p align="left">Nurul Fikri Boarding School Bogor, Jl Jami, Sukaluyu, Tamansari, Bogor, Jawa Barat, 16610 </p>
-                                                <p align="left">
-                                                    <i class="fa-brands fa-telegram"></i> 0812345678 (Orang Public)<br>
-                                                    <i class="fa-brands fa-telegram"></i> 0812345678 (Orang Public)
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <a href="#"><img aria-label="logo" width="215" height="79" src="assets/img/logo-nf-putih.webp" alt=""></a>
+                                </div>
+                                <div class="footer_contact_desc">
+                                    <p>Educating The Future Islamic Leaders</p>
+                                </div>
+                                <div class="footer_social">
+                                    <ul class="d-flex">
+                                        <li><a aria-label="facebook" class="facebook" href="https://www.facebook.com/"><i class="icofont-facebook"></i></a></li>
+                                        <li><a aria-label="dribble" class="dribbble" href="https://dribbble.com/"><i class="icofont-dribbble"></i></a></li>
+                                        <li><a aria-label="youtube" class="youtube" href="https://www.youtube.com/"><i class="icofont-youtube-play"></i></a></li>
+                                        <li><a aria-label="twitter" class="twitter" href="https://twitter.com/"><i class="icofont-twitter"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="footer_widget_list contact">
-                                <h3>Our Location</h3>
+                                <h3>Contact</h3>
                                 <div class="footer_contact_info">
-                                    <div class="footer_menu">
-                                        <div class="IframeMaps">
-                                            <iframe align="center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495.3758142809018!2d106.73936127916559!3d-6.646111334943906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69cfe9c107505b%3A0x4735acf516e63e79!2sNFBS%20Bogor!5e0!3m2!1sid!2sid!4v1670491685373!5m2!1sid!2sid" width="400" height="300" style="border:5;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                        </div>
+                                    <div class="footer_contact_info_list">
+                                        <span>Location:</span>
+                                        <p>Nurul Fikri Boarding School Bogor, Jl Jami, Sukaluyu, Tamansari, Bogor, Jawa Barat, 16610</p>
+                                    </div>
+                                    <div class="footer_contact_info_list">
+                                        <span>Phone:</span>
+                                        <p><a href="#">00 (62) 632 867 4497</a></p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="footer_widget_list footer_list_menu">
-                                <h3>Social Media</h3>
-                                <div class="footer_social">
-                                    <ul class="d-flex">
-                                        <li><a aria-label="facebook" class="facebook" href="https://www.facebook.com"><i class="icofont-facebook"></i></a></li>
-                                        <li><a aria-label="dribble" class="dribbble" href="https://dribbble.com"><i class="icofont-dribbble"></i></a></li>
-                                        <li><a aria-label="youtube" class="youtube" href="https://www.youtube.com"><i class="icofont-youtube-play"></i></a></li>
-                                        <li><a aria-label="twitter" class="twitter" href="https://twitter.com"><i class="icofont-twitter"></i></a></li>
+                            
+                            <div class="footer_widget_list contact">
+                                <h3>SITE LINK</h3>
+                                <div class="footer_menu">
+                                    <ul>
+                                        <li><a href="https://www.nfbs-bogor.sch.id/"> Website NFBS Bogor </a></li>
+                                        <li><a href="#">BSS NFBS Bogor</a></li>
+                                        <li><a href="#">E-Library NFBS Bogor</a></li>
+                                        <li><a href="#">CBT NFBS Bogor</a></li>
+                                        <li><a href="#">Illustration</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -145,24 +151,24 @@
                     <div class="col-12">
                         <div class="footer_bottom_inner d-flex justify-content-between">
                             <div class="copyright_right">
-                                <p> © 2023 MADE WITH <i class="icofont-heart"></i> by <a href="https://hasthemes.com/">IT DYNAMICS</a></p>
+                            <p> © 2023 MADE WITH <i class="icofont-heart"></i> by <a href="https://hasthemes.com/">IT DYNAMICS</a></p>
                             </div>
                             <div class="footer_bottom_link_menu">
                                 <ul class="d-flex">
-                                    <li><a href="about.html">Terms & Condition </a></li>
-                                    <li><a href="about.html">Privacy Policy </a></li>
+                                    <li><a href="#">Terms & Condition  </a></li>
+                                    <li><a href="#">Privacy Policy  </a></li>
                                 </ul>
                             </div>
 
                             <div class="scroll__top_icon">
-                                <a id="scroll-top" href="#"><img aria-label="scroll-top" width="46" height="40" src="<?= BASE_URL ?>assets/img/icon/scroll-top.webp" alt=""></a>
+                                <a id="scroll-top" href="#"><img aria-label="scroll-top" width="46" height="40" src="assets/img/icon/scroll-top.webp" alt=""></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>  
     <!--footer area end-->
 
 
