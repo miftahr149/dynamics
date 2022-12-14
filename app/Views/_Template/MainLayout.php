@@ -50,6 +50,7 @@
                                     <li><a href="<?php echo BASE_URL . 'competition' ?>">COMPETITION</a></li>
                                     <li><a href="<?php echo BASE_URL . 'homestay' ?>">HOMESTAY</a></li>
                                     <li><a href="<?php echo BASE_URL . 'contact' ?>">CONTACT</a></li>
+                                    <li><a href="<?php echo BASE_URL . 'nfll' ?>">NFLL</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -81,6 +82,7 @@
                 <li class="menu-item-has-children"><a href="<?php echo BASE_URL . 'competition' ?>">COMPETITION</a></li>
                 <li class="menu-item-has-children"><a href="#">HOMESTAY</a></li>
                 <li class="menu-item-has-children"><a href="<?php echo BASE_URL . 'contact' ?>">CONTACT</a></li>
+                <li class="menu-item-has-children"><a href="<?php echo BASE_URL . 'nfll' ?>">NFLL</a></li>
             </ul>
         </div>
     </div>

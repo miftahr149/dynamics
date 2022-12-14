@@ -161,102 +161,104 @@
     <!-- Merchandise -->
 
     <section class="testimonial_section wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-        <div class="container">
-            <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
-                <h2>GALLERY</h2>
-                <p>Dynamics 23 Media Partner & Sponsor</p>
-            </div>
-            <div class="gallery">
-                <div class="gallery__column">
-                    <a href="#" target="_blank" class="gallery__link">
-                        <figure class="gallery__thumb">
-                            <img src="http://192.168.100.100/dynamic/assets/images/blog/gallery4.jpg" alt="Portrait by Jessica Felicio" class="gallery__image">
-                            <figcaption class="gallery__caption">Arching Competition</figcaption>
-                        </figure>
-                    </a>
-
-                    <a href="#" target="_blank" class="gallery__link">
-                        <figure class="gallery__thumb">
-                            <img src="http://192.168.100.100/dynamic/assets/images/blog/gallery5.jpg" alt="Portrait by Oladimeji Odunsi" class="gallery__image">
-                            <figcaption class="gallery__caption">Portrait by Oladimeji Odunsi</figcaption>
-                        </figure>
-                    </a>
-
-                    <a href="#" target="_blank" class="gallery__link">
-                        <figure class="gallery__thumb">
-                            <img src="https://source.unsplash.com/VLPLo-GtrIE/300x300" alt="Portrait by Alex Perez" class="gallery__image">
-                            <figcaption class="gallery__caption">Portrait by Alex Perez</figcaption>
-                        </figure>
-                    </a>
+        <div id="gallery">
+            <div class="container">
+                <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                    <h2>GALLERY</h2>
+                    <p>Dynamics 23 Media Partner & Sponsor</p>
                 </div>
+                <div class="gallery">
+                    <div class="gallery__column">
+                        <a href="#gallery" target="_blank" class="gallery__link">
+                            <figure class="gallery__thumb">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F1.JPG" alt="Portrait by Jessica Felicio" class="gallery__image">
+                                <figcaption class="gallery__caption">Scout Activities</figcaption>
+                            </figure>
+                        </a>
 
-                <div class="gallery__column">
-                    <a href="#" target="_blank" class="gallery__link">
-                        <figure class="gallery__thumb">
-                            <img src="https://source.unsplash.com/AR7aumwKr2s/300x300" alt="Portrait by Noah Buscher" class="gallery__image">
-                            <figcaption class="gallery__caption">Portrait by Noah Buscher</figcaption>
-                        </figure>
-                    </a>
+                        <a href="#gallery" target="_blank" class="gallery__link">
+                            <figure class="gallery__thumb">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F2.JPG" alt="Portrait by Oladimeji Odunsi" class="gallery__image">
+                                <figcaption class="gallery__caption">Broadcasting</figcaption>
+                            </figure>
+                        </a>
 
-                    <a href="#" target="_blank" class="gallery__link">
-                        <figure class="gallery__thumb">
-                            <img src="https://source.unsplash.com/dnL6ZIpht2s/300x300" alt="Portrait by Ivana Cajina" class="gallery__image">
-                            <figcaption class="gallery__caption">Portrait by Ivana Cajina</figcaption>
-                        </figure>
-                    </a>
+                        <a href="#gallery" target="_blank" class="gallery__link">
+                            <figure class="gallery__thumb">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F3.JPG" alt="Portrait by Alex Perez" class="gallery__image">
+                                <figcaption class="gallery__caption"></figcaption>
+                            </figure>
+                        </a>
+                    </div>
 
-                    <a href="#" target="_blank" class="gallery__link">
-                        <figure class="gallery__thumb">
-                            <img src="https://source.unsplash.com/tV_1sC603zA/300x500" alt="Portrait by Sam Burriss" class="gallery__image">
-                            <figcaption class="gallery__caption">Portrait by Sam Burriss</figcaption>
-                        </figure>
-                    </a>
-                </div>
+                    <div class="gallery__column">
+                        <a href="#gallery" target="_blank" class="gallery__link">
+                            <figure class="gallery__thumb">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F4.JPG" alt="Portrait by Noah Buscher" class="gallery__image">
+                                <figcaption class="gallery__caption">Story Telling</figcaption>
+                            </figure>
+                        </a>
 
-                <div class="gallery__column">
-                    <a href="#" target="_blank" class="gallery__link">
-                        <figure class="gallery__thumb">
-                            <img src="https://source.unsplash.com/Xm9-vA_bhm0/300x500" alt="Portrait by Mari Lezhava" class="gallery__image">
-                            <figcaption class="gallery__caption">Portrait by Mari Lezhava</figcaption>
-                        </figure>
-                    </a>
+                        <a href="#gallery" target="_blank" class="gallery__link">
+                            <figure class="gallery__thumb">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F5.JPG" alt="Portrait by Ivana Cajina" class="gallery__image">
+                                <figcaption class="gallery__caption">Drawing Competition</figcaption>
+                            </figure>
+                        </a>
 
-                    <a href="#" target="_blank" class="gallery__link">
-                        <figure class="gallery__thumb">
-                            <img src="https://source.unsplash.com/NTjSR3zYpsY/300x300" alt="Portrait by Ethan Haddox" class="gallery__image">
-                            <figcaption class="gallery__caption">Portrait by Ethan Haddox</figcaption>
-                        </figure>
-                    </a>
+                        <a href="#gallery" target="_blank" class="gallery__link">
+                            <figure class="gallery__thumb">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F6.JPG" alt="Portrait by Sam Burriss" class="gallery__image">
+                                <figcaption class="gallery__caption">Futsal Competition</figcaption>
+                            </figure>
+                        </a>
+                    </div>
 
-                    <a href="#" target="_blank" class="gallery__link">
-                        <figure class="gallery__thumb">
-                            <img src="https://source.unsplash.com/2JH8d3ChNec/300x300" alt="Portrait by Amir Geshani" class="gallery__image">
-                            <figcaption class="gallery__caption">Portrait by Amir Geshani</figcaption>
-                        </figure>
-                    </a>
-                </div>
+                    <div class="gallery__column">
+                        <a href="#gallery" target="_blank" class="gallery__link">
+                            <figure class="gallery__thumb">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F7.JPG" alt="Portrait by Mari Lezhava" class="gallery__image">
+                                <figcaption class="gallery__caption">Archery</figcaption>
+                            </figure>
+                        </a>
 
-                <div class="gallery__column">
-                    <a href="#" target="_blank" class="gallery__link">
-                        <figure class="gallery__thumb">
-                            <img src="https://source.unsplash.com/FQhLLehm4dk/300x300" alt="Portrait by Guilian Fremaux" class="gallery__image">
-                            <figcaption class="gallery__caption">Portrait by Guilian Fremaux</figcaption>
-                        </figure>
-                    </a>
+                        <a href="#gallery" target="_blank" class="gallery__link">
+                            <figure class="gallery__thumb">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F8.JPG" alt="Portrait by Ethan Haddox" class="gallery__image">
+                                <figcaption class="gallery__caption">Archery</figcaption>
+                            </figure>
+                        </a>
 
-                    <a href="#" target="_blank" class="gallery__link">
-                        <figure class="gallery__thumb">
-                            <img src="https://source.unsplash.com/OQd9zONSx7s/300x300" alt="Portrait by Jasmin Chew" class="gallery__image">
-                            <figcaption class="gallery__caption">Portrait by Jasmin Chew</figcaption>
-                        </figure>
-                    </a>
+                        <a href="#gallery" target="_blank" class="gallery__link">
+                            <figure class="gallery__thumb">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F9.JPG" alt="Portrait by Amir Geshani" class="gallery__image">
+                                <figcaption class="gallery__caption">Scout Activities</figcaption>
+                            </figure>
+                        </a>
+                    </div>
 
-                    <a href="#" target="_blank" class="gallery__link">
-                        <figure class="gallery__thumb">
-                            <img src="https://source.unsplash.com/XZkEhowjx8k/300x500" alt="Portrait by Dima DallAcqua" class="gallery__image">
-                            <figcaption class="gallery__caption">Portrait by Dima DallAcqua</figcaption>
-                        </figure>
-                    </a>
+                    <div class="gallery__column">
+                        <a href="#gallery" target="_blank" class="gallery__link">
+                            <figure class="gallery__thumb">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F10.JPG" alt="Portrait by Guilian Fremaux" class="gallery__image">
+                                <figcaption class="gallery__caption">Scout Activities</figcaption>
+                            </figure>
+                        </a>
+
+                        <a href="#gallery" target="_blank" class="gallery__link">
+                            <figure class="gallery__thumb">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F11.JPG" alt="Portrait by Jasmin Chew" class="gallery__image">
+                                <figcaption class="gallery__caption">Scout Activities</figcaption>
+                            </figure>
+                        </a>
+
+                        <a href="#gallery" target="_blank" class="gallery__link">
+                            <figure class="gallery__thumb">
+                                <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F12.JPG" alt="Portrait by Dima DallAcqua" class="gallery__image">
+                                <figcaption class="gallery__caption">Scout Activities</figcaption>
+                            </figure>
+                        </a>
+                    </div>
                 </div>
             </div>
     </section>
@@ -273,9 +275,9 @@
     });
 
     var typed = new Typed('.typedjs', {
-        strings: ["Preserving Youth Legacy through Social Movement & Competitions"],
-        typeSpeed: 100,
-        backSpeed: 50,
+        strings: ["Preserving Youth Legacy through Social Movement <br>& Competitions"],
+        typeSpeed: 50,
+        backSpeed: 20,
         showCursor: true,
         cursorChar: '|',
         loop: true,
