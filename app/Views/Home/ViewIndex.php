@@ -107,7 +107,7 @@
                     <div class="upcoming_gaming_text">
                         <p>15 December 2022 ~ 15 January 2023</p>
                         <h3>OPEN REGISTRATION</h3>
-                        <span>08 Teams Registered</span>
+                        <span>Pendaftaran dapat dilakukan dengan mengisi formulir di website <a href="https://dynamics.nfbs-bogor.sch.id/competition">dynamics.nfbs-bogor.sch.id</a></span>
                     </div>
 
                     <div class="upcoming_gaming_thumb d-flex align-items-center">
@@ -116,11 +116,12 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center mb-30" data-wow-delay="0.2s" data-wow-duration="1.2s">
                     <div class="upcoming_gaming_text">
-                        <p>30 December 2022</p>
-                        <h3>TECHNICAL MEETING</h3>
-                        <span>08 Teams Registered</span>
+                        <p>12 January 2023</p>
+                        <h3>TECHNICAL MEETING 1</h3>
+                        <span>Technical meeting untuk perlombaan yang diadakan secara daring (online)</span>
                     </div>
 
                     <div class="upcoming_gaming_thumb d-flex align-items-center">
@@ -130,11 +131,12 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center" data-wow-delay="0.3s" data-wow-duration="1.3s">
                     <div class="upcoming_gaming_text">
-                        <p>4 January 2023</p>
-                        <h3>DYNAMICS 2023</h3>
-                        <span>08 Teams Registered</span>
+                        <p>21 January 2023</p>
+                        <h3>TECHNICAL MEETING 2</h3>
+                        <span>Technical meeting untuk perlombaan yang diadakan secara luring (offline)</span>
                     </div>
 
                     <div class="upcoming_gaming_thumb d-flex align-items-center">
@@ -143,6 +145,49 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center" data-wow-delay="0.3s" data-wow-duration="1.3s">
+                    <div class="upcoming_gaming_text">
+                        <p>25 January 2023</p>
+                        <h3>OPENING NFLL</h3>
+                        <span>Acara NFLL dibuka dan para peserta melakukan karantina di SMPIT NFBS Bogor</span>
+                    </div>
+
+                    <div class="upcoming_gaming_thumb d-flex align-items-center">
+                        <div class="single_upcoming_thumb">
+                            <img src="assets/img/maskot-dynamic-event.webp" alt="maskot-dynamic-event.webp">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center" data-wow-delay="0.3s" data-wow-duration="1.3s">
+                    <div class="upcoming_gaming_text">
+                        <p>25 January 2023 ~ 28 January 2023</p>
+                        <h3>DYNAMICS FESTIVAL 2023</h3>
+                        <span>Acara perlombaan DYNAMICS 2023 berlangsung.</span>
+                    </div>
+
+                    <div class="upcoming_gaming_thumb d-flex align-items-center">
+                        <div class="single_upcoming_thumb">
+                            <img src="assets/img/maskot-dynamic-event.webp" alt="maskot-dynamic-event.webp">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center" data-wow-delay="0.3s" data-wow-duration="1.3s">
+                    <div class="upcoming_gaming_text">
+                        <p>28 January 2023</p>
+                        <h3>CLOSING CEREMONY</h3>
+                        <span>Youth charity cobcert fun bazaar.</span>
+                    </div>
+
+                    <div class="upcoming_gaming_thumb d-flex align-items-center">
+                        <div class="single_upcoming_thumb">
+                            <img src="assets/img/maskot-dynamic-event.webp" alt="maskot-dynamic-event.webp">
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -384,15 +429,5 @@
     }
 </script>
 
-<script>
-    options = {
-        "cursorOuter": "circle-basic",
-        "hoverEffect": "pointer-overlay",
-        "hoverItemMove": false,
-        "defaultCursor": false,
-        "outerWidth": 40,
-        "outerHeight": 40
-    };
-    magicMouse(options);
-</script>
+
 <?= $this->endSection() ?>
