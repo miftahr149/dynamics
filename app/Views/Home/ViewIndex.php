@@ -1,4 +1,4 @@
-<?= $this->extend('_Template\MainLayout') ?>
+<?= $this->extend('MainLayout') ?>
 
 <!-- CSS Load -->
 <?= $this->section('loadCss') ?>
