@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Add site Favicon -->
     <link rel="shortcut icon" href="<?= BASE_URL ?>assets/img/favicon.png" type="image/png">
-    
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale = 1.0, user-scalable = no, width=device-width, height=device-height, maximum-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -337,6 +337,9 @@
     <script src="<?= BASE_URL ?>assets/js/jquery-waypoints.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"></script>
+
+    <!-- Farrel's Analytics System -->
+    <script async defer data-website-id="229bd447-7ca4-4612-a639-f879e73cd649" src="https://analytics.farrelwebsite.my.id/umami.js"></script>
 
     <!-- Main JS -->
     <script src="<?= BASE_URL ?>assets/js/main.js"></script>
