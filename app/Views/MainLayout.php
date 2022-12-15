@@ -2,6 +2,18 @@
 <html class="no-js" lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WT38KNK5Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7WT38KNK5Y');
+    </script>
     <meta charset="utf-8">
     <title><?= SITE_NAME ?></title>
 
@@ -9,6 +21,8 @@
     <!-- Add site Favicon -->
     <link rel="shortcut icon" href="<?= BASE_URL ?>assets/img/favicon.png" type="image/png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
     <meta name="viewport" content="initial-scale = 1.0, user-scalable = no, width=device-width, height=device-height, maximum-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="amphtml" href="<?php echo current_url() ?>/amp">
@@ -81,7 +95,7 @@
     <meta name="dtk:platform" content="desktop" />
     <meta name="dtk:videopresent" content="No" />
 
-   
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -96,9 +110,9 @@
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Ekonomi Bisnis",
-                    "item": "<?php echo current_url()?>"
+                    "item": "<?php echo current_url() ?>"
                 }
-                
+
             ]
         }
     </script>
@@ -261,7 +275,7 @@
                                     <div class="footer_contact_info_list">
                                         <span>Location:</span>
                                         <p>Nurul Fikri Boarding School Bogor, Jl Jami, Sukaluyu, Tamansari, Bogor, Jawa Barat, 16610</p>
-                                    </div>                                   
+                                    </div>
                                 </div>
                             </div>
 
