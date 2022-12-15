@@ -37,8 +37,7 @@
                             <div class="contact_info_text">
                                 <h3>Email:</h3>
                                 <p>
-                                    <a href="mailto:gamestudio@gmail.com">gamestudio@gmail.com</a> <br>
-                                    <a href="mailto:support24@gmail.com">support24@gmail.com</a>
+                                    <a href="mailto:dynamics@smpit-nfbogor.sch.id">dynamics@smpit-nfbogor.sch.id</a> <br>
                                 </p>
                             </div>
                         </div>
@@ -50,8 +49,7 @@
                             </div>
                             <div class="contact_info_text">
                                 <h3>Location:</h3>
-                                <p>100 N Aurora Ave #APT 19
-                                    Oakland, Nebraska(NE), 68045</p>
+                                <p>Jl. Jami, Sukaluyu, Kec. Tamansari, Kabupaten Bogor, Jawa Barat 16610</p>
                             </div>
                         </div>
                     </div>
@@ -63,8 +61,8 @@
                             <div class="contact_info_text">
                                 <h3>Phone:</h3>
                                 <p>
-                                    <a href="tel:(402)685-5964"> (402) 685-5964</a>
-                                    <a href="tel:+88(00)4568457437"> +88 (00) 4568 457 437</a>
+                                    <a href="javascript:void(0)"> 0838-9321-9801 (MS.SYIFA)</a>
+                                    <a href="tel:+88(00)4568457437"> 0812-9688-1438 (MS EZI)</a>
                                 </p>
                             </div>
                         </div>
@@ -77,29 +75,9 @@
     <!-- contact section end -->
 
     <!--contact map start-->
-    <div class="contact_map mt-70">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.6701389278105!2d-0.13442558407566274!3d51.48256882033922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760532743b90e1%3A0x790260718555a20c!2sU.S.%20Embassy%2C%20London!5e0!3m2!1sen!2sbd!4v1623927462716!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div class="contact_map mt-70 pb-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15852.02369509503!2d106.7394109!3d-6.6461846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4735acf516e63e79!2sNFBS%20Bogor!5e0!3m2!1sid!2sid!4v1671078095515!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <!--contact map end-->
-
-    <!-- gaming update section start -->
-    <section class="gaming_update_section contact_gaming_update">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="gaming_update_inner d-flex justify-content-between align-items-center" data-bgimg="assets/img/bg/gaming-update.webp" style="background-image: url(&quot;assets/img/bg/gaming-update.webp&quot;);">
-                        <div class="gaming_update_text">
-                            <h2>Connect with us <br>
-                                for gamING update.</h2>
-                        </div>
-                        <div class="gaming_update_btn">
-                            <a class="btn btn-link" href="#">CONNECT NOW <img width="20" height="20" src="assets/img/icon/arrrow-icon.webp" alt=""> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 </div>
 <?= $this->endSection() ?>
 

@@ -3569,7 +3569,8 @@ section.error_section {
 .breadcrumbs_text h1 {
   font-size: 90px;
   line-height: 90px;
-  font-family: "Metal Mania", cursive;
+  /* font-family: "Metal Mania", cursive; */
+  font-family: 'Roboto', sans-serif;
   text-shadow: 3px 3px 0px #b154f0;
   margin-bottom: 25px;
 }
