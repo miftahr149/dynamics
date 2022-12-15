@@ -151,16 +151,16 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/nice-select.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/magnific-popup.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/preloader.css">
-
-    <!-- Timeline CSS -->
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/timeline.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Farrel's Analytics System -->
+    <script async defer data-website-id="229bd447-7ca4-4612-a639-f879e73cd649" src="https://analytics.farrelwebsite.my.id/umami.js"></script>
+
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/style.css">
     <?= $this->renderSection('loadCss') ?>
 </head>
 
-<<<<<<< Updated upstream
 <body class="body__bg" data-bgimg="<?= BASE_URL ?>assets/img/bg/body-bg.webp">
 
     <!--header area start-->
@@ -195,19 +195,6 @@
                             </div>
                         </div>
                     </div>
-=======
-<!-- Preloader
-<div id="preloader">
-    <div id="preloader-container">
-        <div id="particles-background" class="vertical-centered-box"></div>
-        <div id="particles-foreground" class="vertical-centered-box"></div>
-
-        <div class="vertical-centered-box">
-            <div class="content">
-                <div class="loader-circle"></div>
-                <div class="loader-line-mask">
-                    <div class="loader-line"></div>
->>>>>>> Stashed changes
                 </div>
             </div>
         </div>
@@ -230,11 +217,7 @@
             </ul>
         </div>
     </div>
-<<<<<<< Updated upstream
     <!--offcanvas menu area end-->
-=======
-    Preloader End -->
->>>>>>> Stashed changes
 
     <!-- page wrapper start -->
     <?= $this->renderSection('content') ?>
