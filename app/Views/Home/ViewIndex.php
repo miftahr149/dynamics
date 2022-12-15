@@ -4,6 +4,7 @@
 <?= $this->section('loadCss') ?>
 <?= $this->endSection() ?>
 <?= $this->section('content') ?>
+
 <div class="page_wrapper">
     <section class="hero_banner_section d-flex align-items-center mb-130" data-bgimg="<?= BASE_URL ?>assets/img/bg/hero-bg1.webp">
         <div class="container">
@@ -96,7 +97,7 @@
     </section>
     <!-- About Dynamics End -->
 
-    <!-- Competitions -->
+    <!-- Timeline -->
     <section class="upcoming_gaming_section mb-125">
         <div class="container">
             <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.1s" data-wow-duration="1.1s">
@@ -156,8 +157,19 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna</p>
             </div>
             <img width="100%" height="80%" class="merchandise wow FadeInUp" src="http://192.168.100.100/dynamic/assets/images/merchand/MERCH.png"></img>
+            <br>
+            <a class="btn btn-link wow fadeInUp" onclick="NotReady()" data-wow-delay="0.3s" data-wow-duration="1.3s" href="#">Buy Now <img width="20" height="20" src="assets/img/icon/arrrow-icon.webp" alt="arrrow-icon.webp"> </a>
         </div>
     </section>
+    <script>
+        function NotReady() {
+            Swal.fire(
+                'Dynamics 2023',
+                'Sorry, this menu is not yet available',
+                'warning'
+            )
+        }
+    </script>
     <!-- Merchandise -->
 
     <section class="testimonial_section wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
@@ -165,7 +177,7 @@
             <div class="container">
                 <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
                     <h2>GALLERY</h2>
-                    <p>Dynamics 23 Media Partner & Sponsor</p>
+                    <p>Dynamics 23 Last Year Gallery</p>
                 </div>
                 <div class="gallery">
                     <div class="gallery__column">
@@ -186,7 +198,7 @@
                         <a href="#gallery" target="_blank" class="gallery__link">
                             <figure class="gallery__thumb">
                                 <img src="<?= BASE_URL ?>assets/img/dynamics/gallery/F3.JPG" alt="Portrait by Alex Perez" class="gallery__image">
-                                <figcaption class="gallery__caption"></figcaption>
+                                <figcaption class="gallery__caption">No Comment</figcaption>
                             </figure>
                         </a>
                     </div>
