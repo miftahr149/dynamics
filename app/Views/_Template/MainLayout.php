@@ -31,6 +31,7 @@
     <?= $this->renderSection('loadCss') ?>
 </head>
 
+<<<<<<< Updated upstream
 <body class="body__bg" data-bgimg="<?= BASE_URL ?>assets/img/bg/body-bg.webp">
     <!--header area start-->
     <header class="header_section header_transparent sticky-header">
@@ -63,6 +64,19 @@
                             </div>
                         </div>
                     </div>
+=======
+<!-- Preloader
+<div id="preloader">
+    <div id="preloader-container">
+        <div id="particles-background" class="vertical-centered-box"></div>
+        <div id="particles-foreground" class="vertical-centered-box"></div>
+
+        <div class="vertical-centered-box">
+            <div class="content">
+                <div class="loader-circle"></div>
+                <div class="loader-line-mask">
+                    <div class="loader-line"></div>
+>>>>>>> Stashed changes
                 </div>
             </div>
         </div>
@@ -84,7 +98,11 @@
             </ul>
         </div>
     </div>
+<<<<<<< Updated upstream
     <!--offcanvas menu area end-->
+=======
+    Preloader End -->
+>>>>>>> Stashed changes
 
     <!-- page wrapper start -->
     <?= $this->renderSection('content') ?>

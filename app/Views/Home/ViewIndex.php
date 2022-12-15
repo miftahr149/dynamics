@@ -48,14 +48,14 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="blog_details_desc">
-                            <p align="left">
+                            <p align="left" style="font-size: 18px">
                                 Dynamics 2023 merupakan ajang penguatan dan peningkatan jiwa
                                 kepemimpinan pelajar di-Indonesia khususnya di wilayah Jabodatabek, yang
                                 nantinya diharapkan dapat mengemban peran vital dilingkungan eksternal
                                 maupun internal. Agenda tahunan ini dipersembahkan organisasi siswa/i SMP IT
                                 Nurul Fikri Bogor dengan mengusung tema "Preserving Youth Legacy through
                                 Social Movement and Competition". </p>
-                            <p align="left">
+                            <p align="left" style="font-size: 18px">
                                 Serangkaian agenda Dynamics 2023
                                 disusun sebagai kontribusi kami untuk memberdayakan potensi pemuda untuk
                                 menjadi seorang impact maker muda diantaranya, Nurul Fikri Leader League,
