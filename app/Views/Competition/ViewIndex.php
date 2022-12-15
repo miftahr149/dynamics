@@ -38,7 +38,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">ARCHERY</a></h4>
-                                <h4 class="title"><a href="https://docs.google.com/forms/d/e/1FAIpQLScyLHmG9sEYyRvYLEtbwBYlisPXTAl_7PdXoGh_gBPTEcguaA/viewform" target="_blank" rel="noopener noreferrer"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="https://docs.google.com/forms/d/e/1FAIpQLScyLHmG9sEYyRvYLEtbwBYlisPXTAl_7PdXoGh_gBPTEcguaA/viewform" target="_blank" rel="noopener noreferrer"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -59,7 +59,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">BASKETBALL (PUTERA)</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -80,7 +80,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">BASKETBALL (PUTERI)</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -101,7 +101,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">DIGITAL ART</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -122,7 +122,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">FUTSAL</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -143,7 +143,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">LOMBA BACA PUISI</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -164,7 +164,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">LOMBA CERDAS CERMAT</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -185,7 +185,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">MARCHING BAND</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -206,7 +206,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">MUSABAQOH HIFZIL QURAN</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -227,7 +227,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">NURUL FIKRI SCOUT FESTIVAL</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -248,7 +248,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">RATO JAROEH</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -269,7 +269,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">ROBOTICS</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -290,7 +290,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">SPEECH COMPETITION</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -311,7 +311,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">STORYTELLING CONTEST</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -332,7 +332,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">TRADITIONAL GAME (PUTERI)</a></h4>
-                                <h4 class="title"><a href="javascript:void(0)"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">

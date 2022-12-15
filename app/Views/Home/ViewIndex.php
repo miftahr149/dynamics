@@ -8,20 +8,20 @@
     <section class="hero_banner_section d-flex align-items-center mb-130" data-bgimg="<?= BASE_URL ?>assets/img/bg/hero-bg1.webp">
         <div class="container">
             <div class="hero_banner_inner">
-                <div class="row align-items-center">
-                    <div class="col-12">
-                        <div class="hero_content">
-                            <h1 class="wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">DYNAMICS<br>2023</h1>
-                            <p class="wow fadeInUp typedjs"></p>
-                            <a class="btn btn-link wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1.3s" href="<?php echo BASE_URL . "competition" ?>">Join Now<img width="20" height="20" src="assets/img/icon/arrrow-icon.webp" alt="arrrow-icon.webp"> </a>
-                        </div>
+                <div class="row align-items-center" align="center">
+                    <div class="hero_content">
+                        <h1 class="wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">DYNAMICS 2023</h1>
+                        <p class="wow fadeInUp typedjs"></p>
+                        <a class="btn btn-link wow fadeInUp magic-hover magic-hover__square" data-wow-delay="0.3s" data-wow-duration="1.3s" href="<?php echo BASE_URL . "competition" ?>">Join Now<img width="20" height="20" src="assets/img/icon/arrrow-icon.webp" alt="arrrow-icon.webp"> </a>
                     </div>
                 </div>
             </div>
         </div>
+        <!--
         <div class="hero_position_img">
-            <img width="926" height="772" src="<?= BASE_URL ?>assets/img/maskot_hero.webp" alt="maskot_hero.webp">
+            <img width="926" height="772" src="<?= BASE_URL ?>assets/img/dynamics/mascot1.png" alt="maskot_hero.webp">
         </div>
+-->
     </section>
 
     <!-- Countdown -->
@@ -47,28 +47,28 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="blog_details_desc">
-                            <p align="left">
+                            <p align="left" style="font-size: 18px">
                                 Dynamics 2023 merupakan ajang penguatan dan peningkatan jiwa
                                 kepemimpinan pelajar di-Indonesia khususnya di wilayah Jabodatabek, yang
                                 nantinya diharapkan dapat mengemban peran vital dilingkungan eksternal
                                 maupun internal. Agenda tahunan ini dipersembahkan organisasi siswa/i SMP IT
                                 Nurul Fikri Bogor dengan mengusung tema "Preserving Youth Legacy through
                                 Social Movement and Competition". </p>
-                            <p align="left">
+                            <p align="left" style="font-size: 18px">
                                 Serangkaian agenda Dynamics 2023
                                 disusun sebagai kontribusi kami untuk memberdayakan potensi pemuda untuk
                                 menjadi seorang impact maker muda diantaranya, Nurul Fikri Leader League,
                                 Youth Charity Concert, dan Next Leader Competitions.
                             </p>
                             <div class="sing_up_btn">
-                                <a class="btn btn-link" href="registration.html">CLICK HERE<img width="15" height="15" src="assets/img/icon/arrrow-icon2.webp" alt="sdfs"></a>
+                                <a class="btn btn-link magic-hover magic-hover__square" href="registration.html">CLICK HERE<img width="15" height="15" src="assets/img/icon/arrrow-icon2.webp" alt="sdfs"></a>
                             </div>
                         </div>
 
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <!-- <img class="mg-fluid animate__shakeY" src="<?= BASE_URL ?>assets/img/dynamics/mascot.png" alt=""> -->
-                        <div class="mascot-container">
+                        <div class="mascot-container magic-hover magic-hover__square">
                             <div class="Mascot">
                                 <img src="<?= BASE_URL ?>assets/img/dynamics/mascot1.png">
                             </div>
@@ -102,7 +102,7 @@
             <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.1s" data-wow-duration="1.1s">
                 <h2>TIMELINE</h2>
             </div>
-            <div class="upcoming_gaming_inner">
+            <div class="upcoming_gaming_inner magic-hover magic-hover__square">
                 <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center mb-30" data-wow-delay="0.1s" data-wow-duration="1.1s">
                     <div class="upcoming_gaming_text">
                         <p>15 December 2022 ~ 15 January 2023</p>
@@ -111,7 +111,6 @@
                     </div>
 
                     <div class="upcoming_gaming_thumb d-flex align-items-center">
-                        <a class="btn btn-link" href="#">REGISTRATION</a>
                         <div class="single_upcoming_thumb">
                             <img width="102" height="119" src="assets/img/astronot-roket.webp" alt="astronot-roket.webp">
                         </div>
@@ -154,9 +153,9 @@
             <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
                 <h2>DYNAMICS MERCHANDISE</h2>
             </div>
-            <img width="100%" height="80%" class="merchandise wow FadeInUp" src="http://192.168.100.100/dynamic/assets/images/merchand/MERCH.png"></img>
+            <img width="100%" height="80%" class="merchandise wow FadeInUp magic-hover magic-hover__square" src="http://192.168.100.100/dynamic/assets/images/merchand/MERCH.png"></img>
             <div class="others_match_btn text-center">
-                <a class="btn btn-link" href="javascript:void(0)" onclick="NotReady()">Buy Now</a>
+                <a class="btn btn-link magic-hover magic-hover__square" href="javascript:void(0)" onclick="NotReady()">Buy Now</a>
             </div>
         </div>
     </section>
@@ -170,7 +169,7 @@
                     <h2>GALLERY</h2>
                     <p>Dynamics 23 Media Partner & Sponsor</p>
                 </div>
-                <div class="gallery">
+                <div class="gallery magic-hover magic-hover__square">
                     <div class="gallery__column">
                         <a href="#gallery" target="_blank" class="gallery__link">
                             <figure class="gallery__thumb">
@@ -267,7 +266,7 @@
     </section>
 
     <section class="gaming_video_section mb-118 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-        <div class="container">
+        <div class="container magic-hover magic-hover__square">
             <div class="row">
                 <div class="col-12">
                     <div class="gaming_video_inner slick_navigation slick__activation" data-slick='{
@@ -284,21 +283,21 @@
                         }'>
                         <div class="gaming_video_thumb">
                             <img width="1170" height="540" src="assets/img/jamkrindo.webp" alt="jamkrindo.webp">
-                           
+
                             <div class="live_streaming_text">
                                 <h3>S P O N S O R S H I P</h3>
                             </div>
                         </div>
                         <div class="gaming_video_thumb">
                             <img width="1170" height="540" src="assets/img/sagha.webp" alt="sagha.webp">
-                           
+
                             <div class="live_streaming_text">
                                 <h3>S P O N S O R S H I P</h3>
                             </div>
                         </div>
                         <div class="gaming_video_thumb">
                             <img width="1170" height="540" src="assets/img/arroyyan.webp" alt="arroyyan.webp">
-                           
+
                             <div class="live_streaming_text">
                                 <h3>S P O N S O R S H I P</h3>
                             </div>
@@ -320,7 +319,6 @@
     $(document).ready(function() {
         showSlides();
     });
-
 
     function NotReady() {
         Swal.fire(
@@ -384,5 +382,17 @@
         slides[slideIndex - 1].style.display = "block";
         setTimeout(showSlides, 1500);
     }
+</script>
+
+<script>
+    options = {
+        "cursorOuter": "circle-basic",
+        "hoverEffect": "pointer-overlay",
+        "hoverItemMove": false,
+        "defaultCursor": false,
+        "outerWidth": 40,
+        "outerHeight": 40
+    };
+    magicMouse(options);
 </script>
 <?= $this->endSection() ?>

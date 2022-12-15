@@ -7985,14 +7985,14 @@ only screen and (max-width: 767px) {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   background: url(../img/others/text-mini-shape.webp);
-  height: 65px;
+  height: 86px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 110px;
+  padding: 0 86px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .live_streaming_text {
@@ -8012,7 +8012,7 @@ only screen and (max-width: 767px) {
 }
 @media only screen and (max-width: 767px) {
   .live_streaming_text {
-    height: 45px;
+    height: 49px;
     padding: 0 42px;
     width: 330px;
     background-size: cover;
@@ -8023,7 +8023,7 @@ only screen and (max-width: 767px) {
 }
 @media only screen and (max-width: 575px) {
   .live_streaming_text {
-    height: 35px;
+    height: 44px;
     padding: 0 35px;
     width: 265px;
   }
