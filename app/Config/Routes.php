@@ -40,7 +40,6 @@ $routes->get('/about', 'About::index');
 $routes->get('/homestay', 'Homestay::index');
 $routes->get('/competition', 'Competition::index');
 $routes->get('/contact', 'Contact::index');
-$routes->get('/nfll', 'Nfll::index');
 
 
 /*
