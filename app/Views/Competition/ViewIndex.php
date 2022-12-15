@@ -340,31 +340,51 @@
                             </div>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- gaming update section start -->
-    <section class="gaming_update_section">
+    <section class="gaming_video_section mb-118 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="gaming_update_inner d-flex justify-content-between align-items-center" data-bgimg="assets/img/bg/gaming-update.webp">
-                        <div class="gaming_update_text">
-                            <h2>Connect with us <br>
-                                for gamING update.</h2>
+                    <div class="gaming_video_inner slick_navigation slick__activation" data-slick='{
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1,
+                            "arrows": true,
+                            "dots": false,
+                            "autoplay": false,
+                            "speed": 300,
+                            "infinite": true ,  
+                            "responsive":[ 
+                            {"breakpoint":500, "settings": { "slidesToShow": 1 } }  
+                            ]                                                     
+                        }'>
+                        <div class="gaming_video_thumb">
+                            <img width="1170" height="540" src="assets/img/bg/gaming-bg1.webp" alt="">
+                            <div class="gaming_video_paly_icon">
+                                <a class="video_popup" href="https://www.youtube.com/watch?v=eS9Qm4AOOBY"><img width="134" height="140" src="assets/img/others/play-btn.webp" alt=""></a>
+                            </div>
+                            <div class="live_streaming_text">
+                                <h3>Watch Live Streaming</h3>
+                            </div>
                         </div>
-                        <div class="gaming_update_btn">
-                            <a class="btn btn-link" href="contact.html">CONNECT NOW <img width="20" height="20" src="assets/img/icon/arrrow-icon.webp" alt=""> </a>
+                        <div class="gaming_video_thumb">
+                            <img width="1170" height="540" src="assets/img/bg/gaming-bg1.webp" alt="">
+                            <div class="gaming_video_paly_icon">
+                                <a class="video_popup" href="https://www.youtube.com/watch?v=eS9Qm4AOOBY"><img width="134" height="140" src="assets/img/others/play-btn.webp" alt=""></a>
+                            </div>
+                            <div class="live_streaming_text">
+                                <h3>Watch Live Streaming</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- gaming update section end -->
 
 </div>
 <?= $this->endSection() ?>

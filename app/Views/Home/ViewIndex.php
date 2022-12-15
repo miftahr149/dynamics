@@ -154,22 +154,14 @@
         <div class="container">
             <div class="section_title text-center wow fadeInUp mb-70" data-wow-delay="0.1s" data-wow-duration="1.1s">
                 <h2>DYNAMICS MERCHANDISE</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna</p>
             </div>
             <img width="100%" height="80%" class="merchandise wow FadeInUp" src="http://192.168.100.100/dynamic/assets/images/merchand/MERCH.png"></img>
-            <br>
-            <a class="btn btn-link wow fadeInUp" onclick="NotReady()" data-wow-delay="0.3s" data-wow-duration="1.3s" href="#">Buy Now <img width="20" height="20" src="assets/img/icon/arrrow-icon.webp" alt="arrrow-icon.webp"> </a>
+            <div class="others_match_btn text-center">
+                <a class="btn btn-link" href="javascript:void(0)" onclick="NotReady()">Buy Now</a>
+            </div>
         </div>
     </section>
-    <script>
-        function NotReady() {
-            Swal.fire(
-                'Dynamics 2023',
-                'Sorry, this menu is not yet available',
-                'warning'
-            )
-        }
-    </script>
+
     <!-- Merchandise -->
 
     <section class="testimonial_section wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
@@ -274,6 +266,50 @@
                 </div>
             </div>
     </section>
+
+    <section class="gaming_video_section mb-118 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="gaming_video_inner slick_navigation slick__activation" data-slick='{
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1,
+                            "arrows": true,
+                            "dots": false,
+                            "autoplay": false,
+                            "speed": 300,
+                            "infinite": true ,  
+                            "responsive":[ 
+                            {"breakpoint":500, "settings": { "slidesToShow": 1 } }  
+                            ]                                                     
+                        }'>
+                        <div class="gaming_video_thumb">
+                            <img width="1170" height="540" src="assets/img/jamkrindo.webp" alt="jamkrindo.webp">
+                           
+                            <div class="live_streaming_text">
+                                <h3>S P O N S O R S H I P</h3>
+                            </div>
+                        </div>
+                        <div class="gaming_video_thumb">
+                            <img width="1170" height="540" src="assets/img/sagha.webp" alt="sagha.webp">
+                           
+                            <div class="live_streaming_text">
+                                <h3>S P O N S O R S H I P</h3>
+                            </div>
+                        </div>
+                        <div class="gaming_video_thumb">
+                            <img width="1170" height="540" src="assets/img/arroyyan.webp" alt="arroyyan.webp">
+                           
+                            <div class="live_streaming_text">
+                                <h3>S P O N S O R S H I P</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </div>
 <?= $this->endSection() ?>
 
@@ -285,6 +321,15 @@
     $(document).ready(function() {
         showSlides();
     });
+
+
+    function NotReady() {
+        Swal.fire(
+            'Dynamics 2023',
+            'Sorry, this menu is not yet available',
+            'warning'
+        )
+    }
 
     var typed = new Typed('.typedjs', {
         strings: ["Preserving Youth Legacy through Social Movement <br>& Competitions"],
