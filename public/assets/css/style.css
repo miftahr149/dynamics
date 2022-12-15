@@ -2227,17 +2227,20 @@ textarea:-ms-input-placeholder {
   background: #09002a;
   padding: 32px 65px;
   border-radius: 38px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .upcoming_gaming_list {
     padding: 32px 35px;
+    text-align: center;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .upcoming_gaming_list {
     padding: 28px 25px;
+    text-align: center;
   }
 }
 
@@ -2253,7 +2256,7 @@ textarea:-ms-input-placeholder {
 }
 
 .upcoming_gaming_text {
-  width: 42%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -7911,35 +7914,44 @@ only screen and (max-width: 767px) {
   padding: 2px;
   transition: 0.3s;
 }
+
 .gallery:hover .gallery__image {
   filter: grayscale(1);
 }
+
 .gallery__column {
   display: flex;
   flex-direction: column;
   width: 25%;
 }
+
 .gallery__link {
   margin: 2px;
   overflow: hidden;
 }
+
 .gallery__link:hover .gallery__image {
   filter: grayscale(0);
 }
+
 .gallery__link:hover .gallery__caption {
   opacity: 1;
 }
+
 .gallery__thumb {
   position: relative;
 }
+
 .gallery__image {
   display: block;
   width: 100%;
   transition: 0.3s;
 }
+
 .gallery__image:hover {
   transform: scale(1.1);
 }
+
 .gallery__caption {
   position: absolute;
   bottom: 0;
@@ -7966,17 +7978,19 @@ only screen and (max-width: 767px) {
 }
 
 .IframeMaps {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
+
 .IframeMaps iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 200%;
-	height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
 }
 
 .live_streaming_text {
@@ -7984,65 +7998,73 @@ only screen and (max-width: 767px) {
   bottom: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   background: url(../img/others/text-mini-shape.webp);
-  height: 65px;
+  height: 86px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 110px;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 86px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .live_streaming_text {
     height: 64px;
     padding: 0 104px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .live_streaming_text {
     height: 58px;
     padding: 0 60px;
     width: 480px;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .live_streaming_text {
-    height: 45px;
+    height: 49px;
     padding: 0 42px;
     width: 330px;
     background-size: cover;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
+
 @media only screen and (max-width: 575px) {
   .live_streaming_text {
-    height: 35px;
+    height: 44px;
     padding: 0 35px;
     width: 265px;
   }
 }
+
 .live_streaming_text h3 {
   font-size: 28px;
   margin-bottom: 0;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .live_streaming_text h3 {
     font-size: 23px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .live_streaming_text h3 {
     font-size: 21px;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .live_streaming_text h3 {
     font-size: 15px;

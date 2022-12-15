@@ -175,7 +175,8 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/magnific-popup.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/preloader.css">
 
-    <!-- Timeline CSS -->  
+    <!-- Timeline CSS -->
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/timeline.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/style.css">

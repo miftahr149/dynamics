@@ -1,4 +1,4 @@
-<?= $this->extend('_Template\MainLayout') ?>
+<?= $this->extend('MainLayout') ?>
 
 <!-- CSS Load -->
 <?= $this->section('loadCss') ?>
@@ -38,7 +38,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">ARCHERY</a></h4>
-                                <h4 class="title"><a href="https://docs.google.com/forms/d/e/1FAIpQLScyLHmG9sEYyRvYLEtbwBYlisPXTAl_7PdXoGh_gBPTEcguaA/viewform" target="_blank" rel="noopener noreferrer"><u>CLICK REGISTER</u></a></h4>
+                                <h4 class="title"><a href="https://docs.google.com/forms/d/e/1FAIpQLScyLHmG9sEYyRvYLEtbwBYlisPXTAl_7PdXoGh_gBPTEcguaA/viewform" target="_blank" rel="noopener noreferrer"><u>REGISTER NOW</u></a></h4>
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -81,7 +81,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">BASKETBALL (PUTERI)</a></h4>
-                                <h4 class="title"><a href="http://https://docs.google.com/forms/d/e/1FAIpQLSciOdShyCqPwI5skb3LxkXeK1trUjkPXnA3PyMy6s3J_hjI4Q/viewform" target="_blank" rel="noopener noreferrer"><u>CLICK REGISTER</u></a></h4>                                
+                                <h4 class="title"><a href="https://docs.google.com/forms/d/e/1FAIpQLSciOdShyCqPwI5skb3LxkXeK1trUjkPXnA3PyMy6s3J_hjI4Q/viewform" target="_blank" rel="noopener noreferrer"><u>CLICK REGISTER</u></a></h4>                                
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
@@ -270,8 +270,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">ROBOTICS</a></h4>
-                                <h4 class="title"><a ><u>CLICK REGISTER</u></a></h4> 
-                                <a href="https://iyra-indonesia.id/dynamics-robotic-festival-2023/" target="_blank" rel="noopener noreferrer"></a>                            
+                                <h4 class="title"><a  href="https://iyra-indonesia.id/dynamics-robotic-festival-2023/" target="_blank" rel="noopener noreferrer"><u>CLICK REGISTER</u></a></h4>                                                     
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
