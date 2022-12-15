@@ -270,8 +270,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title"><a href="javascript:void(0)">ROBOTICS</a></h4>
-                                <h4 class="title"><a ><u>CLICK REGISTER</u></a></h4> 
-                                <a href="https://iyra-indonesia.id/dynamics-robotic-festival-2023/" target="_blank" rel="noopener noreferrer"></a>                            
+                                <h4 class="title"><a  href="https://iyra-indonesia.id/dynamics-robotic-festival-2023/" target="_blank" rel="noopener noreferrer"><u>CLICK REGISTER</u></a></h4>                                                     
                                 <div class="content-shape-img">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape.webp" alt="">
                                     <img width="351" height="126" src="assets/img/others/tam-text-shape2.webp" alt="">
