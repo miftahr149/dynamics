@@ -7977,3 +7977,74 @@ only screen and (max-width: 767px) {
 	width: 200%;
 	height: 200%;
 }
+
+.live_streaming_text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: url(../img/others/text-mini-shape.webp);
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 110px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .live_streaming_text {
+    height: 64px;
+    padding: 0 104px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .live_streaming_text {
+    height: 58px;
+    padding: 0 60px;
+    width: 480px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .live_streaming_text {
+    height: 45px;
+    padding: 0 42px;
+    width: 330px;
+    background-size: cover;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .live_streaming_text {
+    height: 35px;
+    padding: 0 35px;
+    width: 265px;
+  }
+}
+.live_streaming_text h3 {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .live_streaming_text h3 {
+    font-size: 23px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .live_streaming_text h3 {
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .live_streaming_text h3 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
