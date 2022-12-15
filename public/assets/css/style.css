@@ -8000,14 +8000,14 @@ only screen and (max-width: 767px) {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   background: url(../img/others/text-mini-shape.webp);
-  height: 86px;
+  height: 55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 0 86px;
+  padding: 0 119px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -8042,7 +8042,7 @@ only screen and (max-width: 767px) {
 
 @media only screen and (max-width: 575px) {
   .live_streaming_text {
-    height: 44px;
+    height: 30px;
     padding: 0 35px;
     width: 265px;
   }
