@@ -15,13 +15,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Metal+Mania&amp;display=swap" rel="stylesheet"> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500&family=Roboto:ital,wght@0,900;1,100;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500&family=Roboto:ital,wght@0,900;1,100;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/slick.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/icofont.min.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/animate.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/nice-select.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/preloader.css">
 
     <!-- Timeline CSS -->
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/timeline.css">
@@ -31,7 +34,25 @@
     <?= $this->renderSection('loadCss') ?>
 </head>
 
+
 <body class="body__bg" data-bgimg="<?= BASE_URL ?>assets/img/bg/body-bg.webp">
+    <div id="preloader">
+        <div id="preloader-container">
+            <div id="particles-background" class="vertical-centered-box"></div>
+            <div id="particles-foreground" class="vertical-centered-box"></div>
+
+            <div class="vertical-centered-box">
+                <div class="content">
+                    <div class="loader-circle"></div>
+                    <div class="loader-line-mask">
+                        <div class="loader-line"></div>
+                    </div>
+                    <img src="<?= BASE_URL ?>assets/img/favicon.png"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--header area start-->
     <header class="header_section header_transparent sticky-header">
         <div class="container">
@@ -57,7 +78,7 @@
                         <!--main menu end-->
                         <div class="header_right_sidebar d-flex align-items-center">
                             <div class="sing_up_btn">
-                                <a class="btn btn-link" href="<?php echo BASE_URL."competition"?>">JOIN NOW <img width="15" height="15" src="assets/img/icon/arrrow-icon2.webp" alt=""> </a>
+                                <a class="btn btn-link" href="<?php echo BASE_URL . "competition" ?>">JOIN NOW <img width="15" height="15" src="assets/img/icon/arrrow-icon2.webp" alt=""> </a>
                             </div>
                             <div class="canvas_open">
                                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"><i class="icofont-navigation-menu"></i></button>
@@ -129,7 +150,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="footer_widget_list contact">
                                 <h3>SITE LINK</h3>
                                 <div class="footer_menu">
@@ -143,7 +164,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -153,12 +174,12 @@
                     <div class="col-12">
                         <div class="footer_bottom_inner d-flex justify-content-between">
                             <div class="copyright_right">
-                            <p> © 2023 MADE WITH <i class="icofont-heart"></i> by <a href="https://hasthemes.com/">IT DYNAMICS</a></p>
+                                <p> © 2023 MADE WITH <i class="icofont-heart"></i> by <a href="https://hasthemes.com/">IT DYNAMICS</a></p>
                             </div>
                             <div class="footer_bottom_link_menu">
                                 <ul class="d-flex">
-                                    <li><a href="#">Terms & Condition  </a></li>
-                                    <li><a href="#">Privacy Policy  </a></li>
+                                    <li><a href="#">Terms & Condition </a></li>
+                                    <li><a href="#">Privacy Policy </a></li>
                                 </ul>
                             </div>
 
@@ -170,7 +191,7 @@
                 </div>
             </div>
         </div>
-    </footer>  
+    </footer>
     <!--footer area end-->
 
 
@@ -192,9 +213,14 @@
     <script src="<?= BASE_URL ?>assets/js/jquery-waypoints.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <!-- Typed JS -->
-   
-
+    <!-- Preloader Script -->
+    <script src="<?= BASE_URL ?>assets/js/preloader.js"></script>
+    <script type="text/javascript">
+        var preloader = document.getElementById("preloader"); /* Load Preloader Div Class */
+        window.addEventListener('load', function() {
+            preloader.style.display = 'none';
+        })
+    </script>
 
     <!-- Main JS -->
     <script src="<?= BASE_URL ?>assets/js/main.js"></script>
