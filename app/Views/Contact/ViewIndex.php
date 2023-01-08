@@ -59,11 +59,10 @@
                                 <img width="115" height="115" src="assets/img/icon/phone.webp" alt="">
                             </div>
                             <div class="contact_info_text">
-                                <h3>Phone:</h3>
-                                <p>
-                                    <a href="javascript:void(0)"> 0838-9321-9801 (MS.SYIFA)</a>
-                                    <a href="tel:+88(00)4568457437"> 0812-9688-1438 (MS EZI)</a>
-                                </p>
+                            <h3>Phone:</h3>
+                                <div class="others_match_btn text-center">
+                                    <a class="btn btn-link magic-hover magic-hover__square" href="javascript:void(0)" onclick="ContactPerson()">Click Me</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -79,6 +78,27 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15852.02369509503!2d106.7394109!3d-6.6461846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4735acf516e63e79!2sNFBS%20Bogor!5e0!3m2!1sid!2sid!4v1671078095515!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
+
+<!-- Sweetalert2 -->
+    <script>
+function ContactPerson() {
+Swal.fire({
+  title: 'Contact Person',
+  icon: 'info',
+  html:
+  '<a href="http://wa.me/6283869772326">Nurul Fikri Leader League NFLL (Chusnul Anwar)</a><br><br>' +
+  '<a href="http://wa.me/6281296881438">LCC & Robotics (Fauzy Dwi)</a><br><br>' +
+  '<a href="http://wa.me/628128859733">MHQ & Marching Band (Syakhril Nur Arifin)</a><br><br>' +
+  '<a href="http://wa.me/6281326926526">Basket, Futsal, Archery, Traditional Game (Audhik Nandha)</a><br><br>' +
+  '<a href="http://wa.me/6289690352342">Speech & Storytelling (Ulfa Tapani)</a><br><br>' +
+  '<a href="http://wa.me/6281946854522">Baca puisi, Rato Jaroeh, Digital Art (Dewi Mustikaningsih)</a>',
+  focusConfirm: false,
+  footer: '<i>Click the Text to Contact</i>',
+  confirmButtonText: 'Close'
+});
+}
+    </script>
+
 <?= $this->endSection() ?>
 
 <?= $this->section('loadJs') ?>
